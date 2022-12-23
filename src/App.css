@@ -26,16 +26,16 @@
 
 .parent {
   display: inline-grid;
-  width: 70%;
+  width: 60%;
   height: 80rem;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(12, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 5px;
+  padding-bottom: 5px;
 }
 
 .parent div{
-  background-color: rgb(0, 169, 155);
   text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 15px;
@@ -43,35 +43,40 @@
 
 .div1 {
   grid-area: 1 / 1 / 6 / 2;
-  background-image: url("..");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-color: aquamarine;
 }
 
-.div2 {
-  grid-area: 1 / 2 / 3 / 4;
+.div2 { grid-area: 1 / 2 / 3 / 4; }
+.div3 { grid-area: 6 / 1 / 8 / 2; }
+.div4 { grid-area: 8 / 1 / 10 / 2; }
+.div5 { grid-area: 3 / 2 / 6 / 4; }
+.div6 { grid-area: 6 / 2 / 13 / 3; }
+.div7 { grid-area: 6 / 3 / 13 / 4; }
+.div8 { grid-area: 13 / 1 / 14 / 4; }
+
+.skills-grid{
+  display: inline-grid;
+  width: 60%;
+  height: 80rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
 }
 
-.div3 {
-  grid-area: 6 / 1 / 8 / 2;
+.skills-grid div{
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 15px;
 }
 
-.div4 {
-  grid-area: 8 / 1 / 10 / 2;
-}
-
-.div5 {
-  grid-area: 3 / 2 / 10 / 3;
-}
-
-.div6 {
-  grid-area: 3 / 3 / 10 / 4;
-}
-
-.div7 {
-  grid-area: 10 / 1 / 13 / 4;
-}
+.skills-grid .div1 { grid-area: 1 / 1 / 3 / 4; }
+.skills-grid .div2 { grid-area: 3 / 1 / 7 / 2; }
+.skills-grid .div3 { grid-area: 3 / 2 / 8 / 3; }
+.skills-grid .div4 { grid-area: 3 / 3 / 10 / 4; }
+.skills-grid .div5 { grid-area: 7 / 1 / 13 / 2; }
+.skills-grid .div6 { grid-area: 8 / 2 / 13 / 3; }
+.skills-grid .div7 { grid-area: 10 / 3 / 13 / 4; }
 
 
 /* Path: src\App.js */
