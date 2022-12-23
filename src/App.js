@@ -12,19 +12,19 @@ function App() {
                     <h1>Title</h1>
                 </div>
                 <div className="div3">
-                    <h1>Experience</h1>
-                </div>
-                <div className="div4">
-                    <h1>Education</h1>
-                </div>
-                <div className="div5">
                     <h1>Languages</h1>
                 </div>
-                <div className="div6">
+                <div className="div4">
                     <h1>Interests</h1>
                 </div>
+                <div className="div5">
+                    <h1>Biography</h1>
+                </div>
+                <div className="div6">
+                    <h1>Experience</h1>
+                </div>
                 <div className="div7">
-                    <h1>Card 1</h1>
+                    <h1>Education</h1>
                 </div>
                 <div className="div8">
                     <h1>Recent Projects</h1>
