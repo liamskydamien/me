@@ -1,10 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import Card from "./UI/Card/Card";
+import Picture from "./Components/Picture";
 
 function App() {
   return (
     <div className="App">
+        <div className="aboutMe">
+            <Card className="Header">
+                <h1>About me</h1>
+            </Card>
+            <Picture className="PictureSlider" src={"./Pictures/VaderSidesSquare.png"} alt={"Look a picture"}>
+            </Picture>
+            <div className="Hi"></div>
+            <div className="General"></div>
+            <div className="AboutMyself"></div>
+        </div>
             <div className="parent">
                 <div className="div1">
                 </div>

@@ -1,82 +1,18 @@
 .App {
   text-align: center;
+  padding: 5%;
 }
 
-.grid-container{
-  /*margin: 0 20rem 0 20rem;*/
+.aboutMe {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
 }
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  font-size: 30px;
-}
-
-.profilePicture{
-}
-
-.title{
-  grid-column: span 3;
-  width: 100%;
-}
-
-.parent {
-  display: inline-grid;
-  width: 60%;
-  height: 80rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-  padding-bottom: 5px;
-}
-
-.parent div{
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  border-radius: 15px;
-}
-
-.div1 {
-  grid-area: 1 / 1 / 6 / 2;
-  background-color: aquamarine;
-}
-
-.div2 { grid-area: 1 / 2 / 3 / 4; }
-.div3 { grid-area: 6 / 1 / 8 / 2; }
-.div4 { grid-area: 8 / 1 / 10 / 2; }
-.div5 { grid-area: 3 / 2 / 6 / 4; }
-.div6 { grid-area: 6 / 2 / 13 / 3; }
-.div7 { grid-area: 6 / 3 / 13 / 4; }
-.div8 { grid-area: 13 / 1 / 14 / 4; }
-
-.skills-grid{
-  display: inline-grid;
-  width: 60%;
-  height: 80rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-}
-
-.skills-grid div{
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  border-radius: 15px;
-}
-
-.skills-grid .div1 { grid-area: 1 / 1 / 3 / 4; }
-.skills-grid .div2 { grid-area: 3 / 1 / 7 / 2; }
-.skills-grid .div3 { grid-area: 3 / 2 / 8 / 3; }
-.skills-grid .div4 { grid-area: 3 / 3 / 10 / 4; }
-.skills-grid .div5 { grid-area: 7 / 1 / 13 / 2; }
-.skills-grid .div6 { grid-area: 8 / 2 / 13 / 3; }
-.skills-grid .div7 { grid-area: 10 / 3 / 13 / 4; }
-
+.Header { grid-area: 1 / 1 / 2 / 5;}
+.PictureSlider { grid-area: 2 / 1 / 5 / 2;}
+.Hi { grid-area: 2 / 2 / 3 / 5; }
+.General { grid-area: 3 / 2 / 4 / 5; }
+.AboutMyself { grid-area: 4 / 2 / 5 / 5;}
 
 /* Path: src\App.js */
