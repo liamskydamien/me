@@ -1,8 +1,9 @@
 import Card from "../UI/Card/Card";
+import "./Picture.css";
 
 const Picture = (props) => {
-    return  <Card className={props.className}>
-                <img src={props.src} alt={props.alt} />
+    const classes = props.className;
+    return  <Card className={classes + " backGround"}>
             </Card>
 }
 export default Picture;

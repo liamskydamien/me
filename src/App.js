@@ -10,7 +10,7 @@ function App() {
             <Card className="Header">
                 <h1>About me</h1>
             </Card>
-            <Picture className="PictureSlider" src={"./Pictures/VaderSidesSquare.png"} alt={"Look a picture"}>
+            <Picture className="PictureSlider" src={""} alt={"Look a picture"}>
             </Picture>
             <div className="Hi"></div>
             <div className="General"></div>
