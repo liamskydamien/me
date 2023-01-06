@@ -1,4 +1,4 @@
-import {useState, useEffect, Fragment} from "react";
+import {useState, useEffect} from "react";
 import styles from './Slideshow.module.css';
 import Picture from "./Picture";
 
@@ -55,12 +55,13 @@ const Slideshow = props => {
         index <= 0 ? setIndex(cards.length - 1) : setIndex(index - 1);
     }
 
-    const IncreaseHandler = () => {
-        next();
-    }
-
-    const DecreaseHandler = () => {
-        prev();
+    const changeIndexHandler = (event) => {
+        if(event.target.id === "next") {
+            next();
+        }
+        else {
+            prev();
+        }
     }
 
     return <div>
