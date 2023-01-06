@@ -1,0 +1,22 @@
+.backGround{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    width: 10rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    padding: 1rem;
+}
+
+.first{
+    background-image: url(../../Pictures/Unbenannt-1.png);
+}
+
+.second{
+    background-image: url(../../Pictures/Unbenannt-2.png);
+}
+
+.third{
+    background-image: url(../../Pictures/Unbenannt-3.png);
+}

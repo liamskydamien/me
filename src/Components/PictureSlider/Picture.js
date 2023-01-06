@@ -1,10 +1,13 @@
-import Card from "../UI/Card/Card";
-import "./Picture.css";
+import styles from "./Picture.module.css";
 
 const Picture = (props) => {
-    const classes = props.className;
-    return  <Card className={classes + " backGround"}>
-                <img src={props.src} alt={props.a}></img>
-            </Card>
+    const images = [
+        styles.first,
+        styles.second,
+        styles.third
+    ];
+
+    const classes = props.className + " " + styles.backGround + " " + images[props.src];
+    return  <div className={classes}/>
 }
 export default Picture;

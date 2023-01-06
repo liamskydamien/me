@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Card from "./UI/Card/Card";
-import Picture from "./Components/Picture";
+import Slideshow from "./Components/PictureSlider/Slideshow";
+import SliderAndButtons from "./Components/PictureSlider/SliderAndButtons";
 
 function App() {
   return (
@@ -10,8 +10,9 @@ function App() {
             <Card className="Header">
                 <h1>About me</h1>
             </Card>
-            <Picture className="PictureSlider" src={""} alt={"Look a picture"}>
-            </Picture>
+            <SliderAndButtons className="PictureSlider">
+               <Slideshow/>
+            </SliderAndButtons>
             <div className="Hi"></div>
             <div className="General"></div>
             <div className="AboutMyself"></div>
