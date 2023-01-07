@@ -1,9 +1,10 @@
 import {useState, useEffect} from "react";
+import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import styles from './Slideshow.module.css';
 import Picture from "./Picture";
 
 const Slideshow = props => {
-    const classes = props.className;
+    const classes = props.className + " " +styles.container;
     const [index, setIndex] = useState(0);
     useEffect(() => {
         setIndex(0);
@@ -26,7 +27,6 @@ const Slideshow = props => {
     }
 
     const renderCards = () => {
-        console.log(index);
         let indexLeft = getPrevIndex();
         let indexRight = getNextIndex();
         return cards.map((card) => {
@@ -64,10 +64,16 @@ const Slideshow = props => {
         }
     }
 
-    return <div>
+    return <div className={classes}>
+        <div className={styles.slider}>
             {
                 renderCards()
             }
-            </div>
+        </div>
+        <div className={styles.buttons}>
+            <button id="prev" className={styles.button + " " + styles.buttonLeft} onClick={changeIndexHandler}><FaArrowLeft/></button>
+            <button id="next" className={styles.button + " " + styles.buttonRight} onClick={changeIndexHandler}><FaArrowRight/></button>
+        </div>
+    </div>
 }
 export default Slideshow;

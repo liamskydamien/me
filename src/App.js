@@ -10,9 +10,7 @@ function App() {
             <Card className="Header">
                 <h1>About me</h1>
             </Card>
-            <SliderAndButtons className="PictureSlider">
-               <Slideshow/>
-            </SliderAndButtons>
+               <Slideshow className="PictureSlider"/>
             <div className="Hi"></div>
             <div className="General"></div>
             <div className="AboutMyself"></div>
