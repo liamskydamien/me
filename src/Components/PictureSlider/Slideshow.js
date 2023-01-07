@@ -30,18 +30,18 @@ const Slideshow = props => {
         let indexLeft = getPrevIndex();
         let indexRight = getNextIndex();
         return cards.map((card) => {
-            let className = "";
+            let className = styles.picture;
             if (index === card.id) {
-                className = styles.picture + " " +  styles.pictureActive;
+                className += " " +  styles.pictureActive;
             }
             else if(indexRight === card.id) {
-                className = styles.picture + " " + styles.right;
+                className += " " + styles.right;
             }
             else if(indexLeft === card.id) {
-                className = styles.picture + " " +  styles.left;
+                className += " " +  styles.left;
             }
             else {
-                className = styles.pictureInactive + " " + styles.picture;
+                className += " " + styles.picture;
             }
             return <Picture key={card.id} src={card.src} className={className}></Picture>
         })
@@ -57,18 +57,12 @@ const Slideshow = props => {
 
 
     return <div className={classes}>
-        <div className={styles.slider}>
-            {
-                renderCards()
-            }
-            <div className={styles.buttons}>
-                <button id="prev" className={styles.button + " " + styles.buttonLeft} onClick={prev}><FaArrowLeft/></button>
-                <button id="next" className={styles.button + " " + styles.buttonRight} onClick={next}><FaArrowRight/></button>
+            <div className={styles.slider}>
+                {renderCards()}
             </div>
-        </div>
         <div className={styles.buttons}>
-            <button id="prev" className={styles.button + " " + styles.buttonLeft} onClick={prev}><FaArrowLeft/></button>
-            <button id="next" className={styles.button + " " + styles.buttonRight} onClick={next}><FaArrowRight/></button>
+            <button id="prev" className={styles.button + " "}  onClick={prev}><FaArrowLeft/></button>
+            <button id="next" className={styles.button + " " } onClick={next}><FaArrowRight/></button>
         </div>
     </div>
 }

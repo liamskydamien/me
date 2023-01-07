@@ -1,5 +1,8 @@
 .picture{
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .pictureInactive{
@@ -25,17 +28,20 @@
 }
 
 .container{
-    position: inherit;
-    display: block;
-    /*grid-template-columns: 1fr ;*/
-    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .slider{
-    /*grid-area: 1 / 2 / 2 / 2;*/
-    width: 100%;
+    position: inherit;
+    margin-bottom: 155%;
 }
+
+
 .buttons{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .button{
@@ -44,12 +50,4 @@
     border-radius: 50%;
     cursor: pointer;
     outline: none;
-}
-
-.buttonLeft{
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.buttonRight{
-    grid-area: 1 / 4 / 2 / 5;
 }
