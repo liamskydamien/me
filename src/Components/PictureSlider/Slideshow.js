@@ -4,7 +4,7 @@ import styles from './Slideshow.module.css';
 import Picture from "./Picture";
 
 const Slideshow = props => {
-    const classes = props.className + " " +styles.container;
+    const classes = props.className + " " + styles.container;
     const [index, setIndex] = useState(0);
     useEffect(() => {
         setIndex(0);
@@ -55,24 +55,20 @@ const Slideshow = props => {
         index <= 0 ? setIndex(cards.length - 1) : setIndex(index - 1);
     }
 
-    const changeIndexHandler = (event) => {
-        if(event.target.id === "next") {
-            next();
-        }
-        else {
-            prev();
-        }
-    }
 
     return <div className={classes}>
         <div className={styles.slider}>
             {
                 renderCards()
             }
+            <div className={styles.buttons}>
+                <button id="prev" className={styles.button + " " + styles.buttonLeft} onClick={prev}><FaArrowLeft/></button>
+                <button id="next" className={styles.button + " " + styles.buttonRight} onClick={next}><FaArrowRight/></button>
+            </div>
         </div>
         <div className={styles.buttons}>
-            <button id="prev" className={styles.button + " " + styles.buttonLeft} onClick={changeIndexHandler}><FaArrowLeft/></button>
-            <button id="next" className={styles.button + " " + styles.buttonRight} onClick={changeIndexHandler}><FaArrowRight/></button>
+            <button id="prev" className={styles.button + " " + styles.buttonLeft} onClick={prev}><FaArrowLeft/></button>
+            <button id="next" className={styles.button + " " + styles.buttonRight} onClick={next}><FaArrowRight/></button>
         </div>
     </div>
 }

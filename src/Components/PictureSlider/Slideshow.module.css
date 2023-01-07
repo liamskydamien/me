@@ -26,20 +26,16 @@
 
 .container{
     position: inherit;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: block;
+    /*grid-template-columns: 1fr ;*/
+    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
 }
 
 .slider{
-    grid-area: 1 / 2 / 2 / 2;
+    /*grid-area: 1 / 2 / 2 / 2;*/
+    width: 100%;
 }
 .buttons{
-    grid-area: 3 / 2 / 3 / 8;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    align-content: space-evenly;
 }
 
 .button{
