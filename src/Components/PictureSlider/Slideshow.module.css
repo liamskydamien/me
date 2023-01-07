@@ -23,13 +23,11 @@
 .left{
     transform: translateX(-15%) scale(0.9);
     transition: 500ms;
-    opacity: 0.3;
 }
 
 .right{
     transform: translateX(15%) scale(0.9);
     transition: 500ms;
-    opacity: 0.3;
 }
 
 .container{
