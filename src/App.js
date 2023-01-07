@@ -21,7 +21,9 @@ function App() {
                 </p>
             </Card>
             <Card className="AboutMyself">
-                <TableAboutMe/>
+                <p>Liam Sky Damien Heß</p>
+                  <p>  Born in Bonn, Germany on the 15th of August 2001</p>
+                   <p> Address: Alter Heeresweg 11, 53639 Königswinter</p>
             </Card>
         </div>
             <div className="parent">
