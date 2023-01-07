@@ -10,8 +10,13 @@
 }
 
 .pictureActive{
-    z-index: 9;
+    z-index: 2;
     transform: scale(1);
+    transition: 500ms;
+}
+
+.pictureActive:hover{
+    transform: scale(1.1);
     transition: 500ms;
 }
 
@@ -47,7 +52,8 @@
 .button{
     border: none;
     background-color: rgba(72, 119, 255, 0.4);
-    border-radius: 50%;
+    border-radius: 25px;
     cursor: pointer;
     outline: none;
+    width: 25%;
 }

@@ -2,18 +2,27 @@ import './App.css';
 import Card from "./UI/Card/Card";
 import Slideshow from "./Components/PictureSlider/Slideshow";
 import SliderAndButtons from "./Components/PictureSlider/SliderAndButtons";
+import TableAboutMe from "./Components/AboutMe/TableAboutMe";
 
 function App() {
   return (
     <div className="App">
         <div className="aboutMe">
             <Card className="Header">
-                <h1>About me</h1>
+                <h2>About me</h2>
             </Card>
                <Slideshow className="PictureSlider"/>
-            <div className="Hi"></div>
-            <div className="General"></div>
-            <div className="AboutMyself"></div>
+            <Card className="Hi">
+                <h2 style={{textAlign:"left"}}>Hi, I'm Liam</h2>
+            </Card>
+            <Card className="General">
+                <p>
+                    My name is Liam and I'm 21 years old. I'm a student at the HBRS in Bonn and I'm currently studying computer science.
+                </p>
+            </Card>
+            <Card className="AboutMyself">
+                <TableAboutMe/>
+            </Card>
         </div>
             <div className="parent">
                 <div className="div1">
