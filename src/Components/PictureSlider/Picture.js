@@ -2,7 +2,7 @@ import styles from "./Picture.module.css";
 import pic1 from "../../Pictures/Selbstportrait.jpg";
 import pic2 from "../../Pictures/LiamBackgroundSea.jpg";
 import pic3 from "../../Pictures/LiamBackgroundBeach.jpg";
-import pic4 from "../../Pictures/LiamBackgroundKohPhanganView.jpg";
+import pic4 from "../../Pictures/LiamKohPhanganView.jpg";
 import pic5 from "../../Pictures/LiamBackgroundLoco.jpg";
 
 const Picture = (props) => {

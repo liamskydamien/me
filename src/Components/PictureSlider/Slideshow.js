@@ -12,7 +12,9 @@ const Slideshow = props => {
     const cards = [
         {id: 0, src: 0},
         {id: 1, src: 1},
-        {id: 2, src: 2}
+        {id: 2, src: 2},
+        {id: 3, src: 3},
+        {id: 4, src: 4}
     ];
 
     const getNextIndex = () => {
