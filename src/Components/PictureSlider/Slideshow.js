@@ -61,8 +61,8 @@ const Slideshow = props => {
                 {renderCards()}
             </div>
         <div className={styles.buttons}>
-            <button id="prev" className={styles.button + " "}  onClick={next}><FaArrowLeft/></button>
-            <button id="next" className={styles.button + " " } onClick={prev}><FaArrowRight/></button>
+            <button id="prev" className={styles.button + " "}  onClick={next}><FaArrowLeft size={25}/></button>
+            <button id="next" className={styles.button + " " } onClick={prev}><FaArrowRight size={25}/></button>
         </div>
     </div>
 }
