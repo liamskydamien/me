@@ -1,11 +1,25 @@
 .App {
-  padding: 6rem 20% 0 20%;
-  background-image: url("./Pictures/SVG/Dark-Background.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 
+}
+
+.body{
+  padding: 6rem 20% 0 20%;
+}
+
+#light{
+  background-image: url("./Pictures/SVG/Light-Background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#dark{
+  background-image: url("./Pictures/SVG/Dark-Background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .aboutMe {
