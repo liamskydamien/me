@@ -1,13 +1,17 @@
 import styles from "./Picture.module.css";
-import pic1 from "../../Pictures/Unbenannt-1.png";
-import pic2 from "../../Pictures/Unbenannt-2.png";
-import pic3 from "../../Pictures/Unbenannt-3.png";
+import pic1 from "../../Pictures/Selbstportrait.jpg";
+import pic2 from "../../Pictures/LiamBackgroundSea.jpg";
+import pic3 from "../../Pictures/LiamBackgroundBeach.jpg";
+import pic4 from "../../Pictures/LiamBackgroundKohPhanganView.jpg";
+import pic5 from "../../Pictures/LiamBackgroundLoco.jpg";
 
 const Picture = (props) => {
     const images = [
         pic1,
         pic2,
-        pic3
+        pic3,
+        pic4,
+        pic5
     ];
 
     const classes = props.className + " " + styles.backGround + " " + images[props.src];
