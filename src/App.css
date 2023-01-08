@@ -4,18 +4,7 @@
 
 .body{
   padding: 6rem 20% 0 20%;
-}
-
-#light{
-  background-image: url("./Pictures/SVG/Light-Background.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-#dark{
-  background-image: url("./Pictures/SVG/Dark-Background.svg");
+  background-image: var(--background);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -75,14 +64,17 @@
 /* Projects section */
 
 h2 {
+  color: var(--text-color);
   margin: 20px;
 }
 
 h3 {
+  color: var(--text-color);
   margin: 20px;
 }
 
 p{
+    color: var(--text-color);
     margin: 5px;
 }
 /* Path: src\App.js */

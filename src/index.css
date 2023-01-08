@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  --background: url("./Pictures/SVG/Light-Background.svg");
+  --background-cards: rgba(255, 255, 255, 0.85);
+  --background-navbar: rgb(201, 201, 201);
+  --text-color: #000000;
+  --button-color: #4877ff;
+  --githubIcon: #000333;
+}
+
+[data-theme="dark"]{
+  --background: url("./Pictures/SVG/Dark-Background.svg");
+  --background-cards: rgba(35, 35, 35, 0.85);
+  --background-navbar: #2c2c2c;
+  --text-color: #fafafa;
+  --button-color: #4877ff;
+  --githubIcon: #fafafa;
+}

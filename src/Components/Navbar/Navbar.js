@@ -3,14 +3,13 @@ import {FaEnvelope, FaLinkedinIn, FaGithub, FaInstagram} from "react-icons/fa";
 import {useState} from "react";
 import ReactSwitch from "react-switch";
 const Navbar = props => {
-    const theme = props.theme;
     const toggleTheme = () => {
         props.onThemeChange();
         setChecked(!checked);
     }
     const [checked, setChecked] = useState(false);
 
-    return  <div className={styles.Navbar + " " + theme}>
+    return  <div className={styles.Navbar}>
                 <div className="Navbar__Logo">
                     <a href="/">Logo</a>
                 </div>

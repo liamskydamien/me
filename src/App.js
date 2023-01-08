@@ -6,13 +6,14 @@ import Slideshow from "./Components/PictureSlider/Slideshow";
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
-    const [theme, setTheme] = useState("light");
+    const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const [theme, setTheme] = useState(defaultDark ? 'dark' : 'light');
     const toggleThemeHandler = () => {
         theme === "light" ? setTheme("dark") : setTheme("light");
     }
 
-    return  <div className="App" id={theme}>
-                <Navbar onThemeChange={toggleThemeHandler} theme={theme}></Navbar>
+    return  <div className="App" data-theme={theme}>
+                <Navbar onThemeChange={toggleThemeHandler}></Navbar>
                 <div className="body">
                   <div className="aboutMe">
                       <Card className="Header">

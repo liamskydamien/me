@@ -5,7 +5,7 @@
     top: 0;
     width: 100%;
     height: 5rem;
-    background: rgb(201, 201, 201);
+    background: var(--background-navbar);
     z-index: 99;
     box-shadow: #292929 0px 0px 10px;
 }
@@ -41,7 +41,7 @@
 }
 
 .GitHub{
-    color: #000333;
+    color: var(--githubIcon);
 }
 
 /* Darkmode: color: #fafafa; */
