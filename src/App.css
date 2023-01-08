@@ -7,14 +7,14 @@
 .aboutMe {
   display: grid;
   grid-template-columns: [slider]12.5rem 1fr 1fr 1fr;
-  grid-template-rows: [top]50px [hi]50px [general]6rem [text]10rem;
+  grid-template-rows: [top]75px [hi]75px [general]6rem [text]10rem;
   gap: 10px 45px;
 }
 
 .experiences{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: [top]50px 1fr;
+  grid-template-rows: [top]75px 1fr;
   gap: 10px 15px;
 }
 
@@ -47,6 +47,7 @@
 
 .Work {
   grid-area: 2 / 1 / 3 / 2;
+  height: 40rem;
 }
 
 .Education {
@@ -56,7 +57,11 @@
 /* Projects section */
 
 h2 {
-  margin: 7px;
+  margin: 20px;
+}
+
+h3 {
+  margin: 20px;
 }
 
 p{
