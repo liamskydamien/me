@@ -32,7 +32,14 @@ const Navbar = props => {
                         <FaInstagram size={35}/>
                     </a>
                     <div className={styles.themeSwitch}>
-                        <ReactSwitch checked={checked} onChange={toggleTheme}></ReactSwitch>
+                        <ReactSwitch checked={checked}
+                                     onChange={toggleTheme}
+                                     onColor="#86d3ff"
+                                     onHandleColor="#2693e6"
+                                     handleDiameter={30}
+                                     uncheckedIcon={false}
+                                     checkedIcon={false}>
+                        </ReactSwitch>
                     </div>
                 </div>
             </div>
