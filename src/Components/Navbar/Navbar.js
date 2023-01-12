@@ -34,8 +34,8 @@ const Navbar = props => {
                     <div className={styles.themeSwitch}>
                         <ReactSwitch checked={checked}
                                      onChange={toggleTheme}
-                                     onColor="#86d3ff"
-                                     onHandleColor="#2693e6"
+                                     onColor="#7599FFFF"
+                                     onHandleColor="#4877ff"
                                      handleDiameter={30}
                                      uncheckedIcon={false}
                                      checkedIcon={false}>

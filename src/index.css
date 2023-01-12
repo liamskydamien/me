@@ -14,8 +14,8 @@ code {
 
 :root{
   --background: url("./Pictures/SVG/Light-Background.svg");
-  --background-cards: rgba(208, 208, 208, 0.85);
-  --background-navbar: rgb(201, 201, 201);
+  --background-cards: rgba(232, 232, 232, 0.55);
+  --background-navbar: rgb(227, 227, 227);
   --text-color: #000000;
   --button-color: #4877ff;
   --githubIcon: #000333;
