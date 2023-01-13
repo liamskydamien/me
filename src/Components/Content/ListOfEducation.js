@@ -14,19 +14,9 @@ const ListOfEducation = () => {
             </div>
         <div className={styles.wrapper}>
             <img src={hbrs} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
-            <h4>Hochschule Bonn-Rhein-Sieg</h4>
-            <h5>Bachelor of Science Wirtschaftsinformatik</h5>
-            <p>Derzeit im 3. Fachsemester voraussichtlicher Abschluss 2024.
-                Aktueller Notendurchschnitt: 1.7
-            </p>
-        </div>
-        <div className={styles.wrapper}>
-            <img src={hbrs} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
-            <h4>Hochschule Bonn-Rhein-Sieg</h4>
-            <h5>Bachelor of Science Wirtschaftsinformatik</h5>
-            <p>Derzeit im 3. Fachsemester voraussichtlicher Abschluss 2024.
-                Aktueller Notendurchschnitt: 1.7
-            </p>
+            <h4>Gymnasium am Ölberg</h4>
+            <h5>Allgemeine Hochschulreife</h5>
+            <p>Abschluss am 06/2020 mit einem Notendurchschnitt von 2.0</p>
         </div>
     </React.Fragment>
 }
