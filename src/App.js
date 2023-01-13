@@ -4,6 +4,7 @@ import './App.css';
 import Card from "./UI/Card/Card";
 import Slideshow from "./Components/PictureSlider/Slideshow";
 import Navbar from "./Components/Navbar/Navbar";
+import ListOfEducation from "./Components/Content/ListOfEducation";
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -42,7 +43,7 @@ function App() {
                           <h3 style={{textAlign:"left"}}>Work</h3>
                       </Card>
                       <Card className="Education">
-                          <h3 style={{textAlign:"left"}}>Education</h3>
+                          <ListOfEducation/>
                       </Card>
                   </div>
                 </div>
