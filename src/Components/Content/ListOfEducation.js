@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './contentStyles.module.css';
-import hbrs from "../../Pictures/Download.png";
+import hbrs from "../../Pictures/HBRS.png";
+import gao from "../../Pictures/GaO.png";
 const ListOfEducation = () => {
     return <React.Fragment>
         <h3>Education</h3>
@@ -15,7 +16,7 @@ const ListOfEducation = () => {
                 </div>
             </div>
         <div className={styles.wrapper}>
-            <img src={hbrs} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
+            <img src={gao} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
             <div className={styles.content}>
                 <h4>Gymnasium am Ölberg</h4>
                 <h5>Allgemeine Hochschulreife</h5>

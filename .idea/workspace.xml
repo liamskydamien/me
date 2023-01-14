@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding Entries">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Styling">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pictures/GaO.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pictures/GaO.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pictures/HBRS.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pictures/HBRS.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +105,7 @@
       <workItem from="1673632310976" duration="3071000" />
       <workItem from="1673701175367" duration="1882000" />
       <workItem from="1673715988576" duration="12000" />
-      <workItem from="1673725361643" duration="633000" />
+      <workItem from="1673725361643" duration="1958000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1671662505176</created>
@@ -313,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673638679559</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Styling">
+      <created>1673726061397</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1673726061397</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Styling">
+      <created>1673726422835</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1673726422835</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +364,6 @@
     <MESSAGE value="styling" />
     <MESSAGE value="Fixed positioning" />
     <MESSAGE value="Adding Navbar" />
-    <MESSAGE value="Styling" />
     <MESSAGE value="Not sure about the colors" />
     <MESSAGE value="New Design" />
     <MESSAGE value="Adding variations" />
@@ -357,6 +374,7 @@
     <MESSAGE value="Styling butto" />
     <MESSAGE value="Adding List Entries" />
     <MESSAGE value="Adding Entries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Entries" />
+    <MESSAGE value="Styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling" />
   </component>
 </project>
