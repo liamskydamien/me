@@ -33,7 +33,6 @@
 .socials a:hover{
     transform: scale(1.1);
     transition: 250ms;
-    color: #4877ff;
 }
 
 .LinkedIn{

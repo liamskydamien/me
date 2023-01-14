@@ -77,4 +77,19 @@ p{
     color: var(--text-color);
     margin: 5px;
 }
+
+.expandableCard{
+  background-color: var(--background-cards);
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.45);
+  width: 100%;
+  transform: scale(1);
+  transition: 250ms;
+}
+
+.expandableCard:hover{
+  transform: scale(1.075);
+  transition: 250ms;
+  z-index: 98;
+}
 /* Path: src\App.js */

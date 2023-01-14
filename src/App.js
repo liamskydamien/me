@@ -1,5 +1,6 @@
 import React from 'react';
 import {useState} from "react";
+import {motion} from "framer-motion";
 import './App.css';
 import Card from "./UI/Card/Card";
 import Slideshow from "./Components/PictureSlider/Slideshow";
@@ -42,7 +43,7 @@ function App() {
                       <Card className="Work">
                           <h3 style={{textAlign:"left"}}>Work</h3>
                       </Card>
-                      <Card className="Education">
+                      <Card className="Education expandableCard">
                           <ListOfEducation/>
                       </Card>
                   </div>
