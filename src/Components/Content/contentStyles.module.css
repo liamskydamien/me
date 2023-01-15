@@ -3,6 +3,15 @@
     grid-template-columns: [image] 33.3%  1fr;
     grid-template-rows: 1fr;
     padding: 5%;
+    margin: 5%;
+    background-color: var(--background-cards);
+    border-radius: 25px;
+}
+
+.wrapper:hover{
+    transform: scale(1.05);
+    transition: 250ms;
+    z-index: 98;
 }
 
 h4{
@@ -48,6 +57,10 @@ p{
     border-radius: 5px;
     color: var(--text-color);
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.45);
+}
+
+.hidden{
+    display: none;
 }
 
 .skills div:nth-child(1){
