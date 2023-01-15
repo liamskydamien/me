@@ -12,6 +12,7 @@
     transform: scale(1.05);
     transition: 250ms;
     z-index: 98;
+    cursor: pointer;
 }
 
 h4{

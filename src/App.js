@@ -53,13 +53,6 @@ function App() {
                           <ListOfEducation isExpanded={showEducation}/>
                       </Card>
                   </div>
-                    <div className={styles.skills}>
-                    <div className={styles.skill}><FaCode/> Software Engineering</div>
-                    <div className={styles.skill}><FaPoll/> IT-Controlling</div>
-                    <div className={styles.skill}><FaCode/> Web Development</div>
-                    <div className={styles.skill}><FaRegLightbulb/> Design Thinking</div>
-                    <div className={styles.skill}><FaNetworkWired/> IT-Systems</div>
-                </div>
                 </div>
             </div>
 }
