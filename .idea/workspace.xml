@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Styling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +105,7 @@
       <workItem from="1673793917230" duration="9000" />
       <workItem from="1673794611179" duration="606000" />
       <workItem from="1673804754739" duration="3178000" />
+      <workItem from="1673890832322" duration="258000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1671662505176</created>
