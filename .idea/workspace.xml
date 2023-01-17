@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Styling">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Order skills">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,9 @@
       <workItem from="1673793917230" duration="9000" />
       <workItem from="1673794611179" duration="606000" />
       <workItem from="1673804754739" duration="3178000" />
-      <workItem from="1673890832322" duration="258000" />
+      <workItem from="1673890832322" duration="456000" />
+      <workItem from="1673892236495" duration="162000" />
+      <workItem from="1673976470560" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1671662505176</created>
@@ -352,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673807696773</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Order skills">
+      <created>1673891157156</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1673891157156</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +379,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Card Component" />
     <MESSAGE value="Adding grid" />
     <MESSAGE value="Changing names" />
     <MESSAGE value="Fixing grid" />
@@ -396,6 +403,7 @@
     <MESSAGE value="Adding List Entries" />
     <MESSAGE value="Adding Entries" />
     <MESSAGE value="Styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styling" />
+    <MESSAGE value="Order skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="Order skills" />
   </component>
 </project>
