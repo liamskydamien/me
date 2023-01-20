@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Order skills">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding Animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +109,8 @@
       <workItem from="1673890832322" duration="456000" />
       <workItem from="1673892236495" duration="162000" />
       <workItem from="1673976470560" duration="12000" />
+      <workItem from="1673986666260" duration="638000" />
+      <workItem from="1674238316280" duration="1396000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1671662505176</created>
@@ -360,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673891157156</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Order skills">
+      <created>1673986700588</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1673986700589</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +390,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding grid" />
     <MESSAGE value="Changing names" />
     <MESSAGE value="Fixing grid" />
     <MESSAGE value="Adding Background Image" />
@@ -404,6 +414,7 @@
     <MESSAGE value="Adding Entries" />
     <MESSAGE value="Styling" />
     <MESSAGE value="Order skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="Order skills" />
+    <MESSAGE value="Adding Animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Animation" />
   </component>
 </project>

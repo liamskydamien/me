@@ -4,11 +4,11 @@ import hbrs from "../../Pictures/HBRS.png";
 import gao from "../../Pictures/GaO.png";
 import {FaCode, FaNetworkWired, FaPoll, FaRegLightbulb} from "react-icons/fa";
 const ListOfEducation = props => {
-    const [isExpanded, setIsExpanded] = React.useState(props.isExpanded);
+    const [isExpanded, setIsExpanded] = React.useState(styles.hidden);
 
     return <React.Fragment>
         <h3>Education</h3>
-            <div className={styles.wrapper} onClick= {() => setIsExpanded(!isExpanded)}>
+            <div className={styles.wrapper} onClick= {() => setIsExpanded(isExpanded === styles.hidden? styles.active : styles.hidden)}>
                 <img src={hbrs} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
                 <div className={styles.content}>
                     <h4>Hochschule Bonn-Rhein-Sieg</h4>
@@ -17,7 +17,7 @@ const ListOfEducation = props => {
                         Aktueller Notendurchschnitt: 1.7
                     </p>
                 </div>
-                <div className={styles.skills}>
+                <div className={styles.skills + " " + isExpanded}>
                     <div className={styles.skill}><FaCode/> Software Engineering</div>
                     <div className={styles.skill}><FaPoll/> IT-Controlling</div>
                     <div className={styles.skill}><FaCode/> Web Development</div>
