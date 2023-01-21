@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.10a57fe9.css",
-    "main.js": "/me/static/js/main.6e586b53.js",
+    "main.css": "/me/static/css/main.86ff58e5.css",
+    "main.js": "/me/static/js/main.0f42a8b3.js",
     "static/js/787.ee95881d.chunk.js": "/me/static/js/787.ee95881d.chunk.js",
     "static/media/Selbstportrait.jpg": "/me/static/media/Selbstportrait.eb0b749503bbad7a80c2.jpg",
     "static/media/LiamBackgroundSea.jpg": "/me/static/media/LiamBackgroundSea.7cb8e9c3aaf1ec13b097.jpg",
     "static/media/LiamKohPhanganView.jpg": "/me/static/media/LiamKohPhanganView.d5b6bbef36cbb1f4c19d.jpg",
+    "static/media/GaO.png": "/me/static/media/GaO.4810cb7ca58904c59c0c.png",
     "static/media/LiamBackgroundLoco.jpg": "/me/static/media/LiamBackgroundLoco.776bdcd94c5f64ea7f2c.jpg",
     "static/media/LiamBackgroundBeach.jpg": "/me/static/media/LiamBackgroundBeach.e53124cc67fb54c599ae.jpg",
+    "static/media/HBRS.png": "/me/static/media/HBRS.4449791881bf21d3fcdf.png",
     "static/media/Dark-Background.svg": "/me/static/media/Dark-Background.afb1ade09ee699457a05.svg",
     "static/media/Light-Background.svg": "/me/static/media/Light-Background.bf8d0f78b0285dbde500.svg",
     "index.html": "/me/index.html",
-    "main.10a57fe9.css.map": "/me/static/css/main.10a57fe9.css.map",
-    "main.6e586b53.js.map": "/me/static/js/main.6e586b53.js.map",
+    "main.86ff58e5.css.map": "/me/static/css/main.86ff58e5.css.map",
+    "main.0f42a8b3.js.map": "/me/static/js/main.0f42a8b3.js.map",
     "787.ee95881d.chunk.js.map": "/me/static/js/787.ee95881d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10a57fe9.css",
-    "static/js/main.6e586b53.js"
+    "static/css/main.86ff58e5.css",
+    "static/js/main.0f42a8b3.js"
   ]
 }
