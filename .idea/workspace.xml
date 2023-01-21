@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding scaling">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="making it smooth">
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/hbrsStyles.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -109,7 +113,9 @@
       <workItem from="1673892236495" duration="162000" />
       <workItem from="1673976470560" duration="12000" />
       <workItem from="1673986666260" duration="638000" />
-      <workItem from="1674238316280" duration="2132000" />
+      <workItem from="1674238316280" duration="2211000" />
+      <workItem from="1674317788007" duration="352000" />
+      <workItem from="1674325031540" duration="1061000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1671662505176</created>
@@ -384,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674240157979</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="making it smooth">
+      <created>1674240522271</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1674240522271</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +416,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixing grid" />
     <MESSAGE value="Adding Background Image" />
     <MESSAGE value="Adding Carrousell" />
     <MESSAGE value="Adding buttons" />
@@ -428,6 +440,7 @@
     <MESSAGE value="Order skills" />
     <MESSAGE value="Adding Animation" />
     <MESSAGE value="Adding scaling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding scaling" />
+    <MESSAGE value="making it smooth" />
+    <option name="LAST_COMMIT_MESSAGE" value="making it smooth" />
   </component>
 </project>

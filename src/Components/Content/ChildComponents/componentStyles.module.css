@@ -1,0 +1,70 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: [image] 33.3%  1fr;
+    grid-template-rows: 10rem 1fr;
+    padding: 5%;
+    margin: 5%;
+    background-color: var(--background-cards);
+    border-radius: 25px;
+}
+
+.wrapper:hover{
+    transform: scale(1.05);
+    transition: 250ms;
+    z-index: 98;
+    cursor: pointer;
+}
+
+h4{
+    color: var(--text-color);
+    margin: 5px;
+}
+
+h5{
+    color: var(--text-color);
+    margin: 5px;
+}
+
+p{
+    color: var(--text-color);
+    margin: 5px;
+}
+
+.wrapper img{
+    grid-column: image;
+    grid-row: 1;
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+.wrapper .content{
+    grid-column: 2;
+    grid-row: 1 / 4;
+    padding: 5%;
+    text-align: left;
+}
+
+.skills{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    align-items: center;
+    display: -ms-flexbox;
+    overflow: hidden;
+    justify-content: center;
+    padding: 0 10% 0 10%;
+
+}
+
+.skill{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--text-color);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.45);
+}
+
+.skill:hover{
+    transform: scale(1.05);
+    transition: 250ms;
+}
