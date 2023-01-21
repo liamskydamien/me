@@ -15,20 +15,7 @@
     cursor: pointer;
 }
 
-h4{
-    color: var(--text-color);
-    margin: 5px;
-}
 
-h5{
-    color: var(--text-color);
-    margin: 5px;
-}
-
-p{
-    color: var(--text-color);
-    margin: 5px;
-}
 
 .wrapper img{
     grid-column: image;

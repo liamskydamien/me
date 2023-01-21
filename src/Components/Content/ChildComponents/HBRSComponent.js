@@ -1,11 +1,19 @@
 import hbrs from "../../../Pictures/HBRS.png";
-import styles from "../contentStyles.module.css";
+import styles from "./componentStyles.module.css";
 import specificStyles from "./hbrsStyles.module.css";
 import {FaCode, FaNetworkWired, FaPoll, FaRegLightbulb} from "react-icons/fa";
-import React from "react";
+import React, {useState} from "react";
 
 const HBRSComponent = () => {
-    return <div>
+    const [isExpanded, setIsExpanded] = useState(specificStyles.hidden);
+    const expansionHandler = () => {
+        if (isExpanded === specificStyles.hidden) {
+            setIsExpanded(specificStyles.active);
+        } else {
+            setIsExpanded(specificStyles.hidden);
+        }
+    };
+    return <div className={styles.wrapper} onClick={expansionHandler}>
         <img src={hbrs} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
         <div className={styles.content}>
             <h4>Hochschule Bonn-Rhein-Sieg</h4>
@@ -14,7 +22,7 @@ const HBRSComponent = () => {
                 Aktueller Notendurchschnitt: 1.7
             </p>
         </div>
-        <div className={styles.skills + " " + specificStyles.isExpanded}>
+        <div className={styles.skills + " " + isExpanded + " " + specificStyles.skills}>
             <div className={styles.skill}><FaCode/> Software Engineering</div>
             <div className={styles.skill}><FaPoll/> IT-Controlling</div>
             <div className={styles.skill}><FaCode/> Web Development</div>
