@@ -9,21 +9,21 @@
 }
 
 .skills div:nth-child(1){
-    background-color: #c90044;
+    background-color: var(--darkpurple)
 }
 
 .skills div:nth-child(2){
-    background-color: #00c4c0;
+    background-color: var(--darkblue)
 }
 
 .skills div:nth-child(3){
-    background-color: #36cc84;
+    background-color: var(--lightorange)
 }
 
 .skills div:nth-child(4){
-    background-color: #d25714;
+    background-color: var(--lightgreen)
 }
 
 .skills div:nth-child(5){
-    background-color: #c9267d;
+    background-color: var(--lightpurple)
 }

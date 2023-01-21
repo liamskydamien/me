@@ -19,6 +19,15 @@ code {
   --text-color: #000000;
   --button-color: #4877ff;
   --githubIcon: #000333;
+  --darkpurple: #ff3a7d;
+  --lightpurple: #ff5db5;
+  --lightblue: #00fff8;
+  --darkblue: #65adff;
+  --lightgreen: #5effaf;
+  --darkgreen: #00f100;
+  --lightyellow: #ffff47;
+  --darkyellow: #ffcd11;
+  --lightorange: #ff9151;
 }
 
 [data-theme="dark"]{
@@ -28,4 +37,13 @@ code {
   --text-color: #fafafa;
   --button-color: #4877ff;
   --githubIcon: #fafafa;
+  --darkpurple: #c90044;
+  --lightpurple: #c9267d;
+  --lightblue:  #00c4c0;
+  --darkblue: #0077ff;
+  --lightgreen: #36cc84;
+  --darkgreen: #00b300;
+  --lightyellow: #ffff00;
+  --darkyellow: #e6e600;
+  --lightorange: #d25714;
 }
