@@ -5,21 +5,14 @@ import Card from "./UI/Card/Card";
 import Slideshow from "./Components/PictureSlider/Slideshow";
 import Navbar from "./Components/Navbar/Navbar";
 import ListOfEducation from "./Components/Content/ListOfEducation";
-import styles from "./Components/Content/contentStyles.module.css";
-import {FaCode, FaNetworkWired, FaPoll, FaRegLightbulb} from "react-icons/fa";
+import ListofWork from "./Components/Content/ListofWork";
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useState(defaultDark ? 'dark' : 'light');
     const toggleThemeHandler = () => {
         theme === "light" ? setTheme("dark") : setTheme("light");
-    }
-    const [showEducation, setShowEducation] = useState(false);
-
-    const toggleExpansionEducation = () => {
-        setShowEducation(!showEducation);
-    }
-
+    };
     return  <div className="App" data-theme={theme}>
                 <Navbar onThemeChange={toggleThemeHandler}></Navbar>
                 <div className="body">
@@ -47,10 +40,10 @@ function App() {
                           <h2>Experiences</h2>
                       </Card>
                       <Card className="Work">
-                          <h3 style={{textAlign:"left"}}>Work</h3>
+                          <ListofWork></ListofWork>
                       </Card>
-                      <Card className="Education expandableCard" onClick={toggleExpansionEducation}>
-                          <ListOfEducation isExpanded={showEducation}/>
+                      <Card className="Education expandableCard">
+                          <ListOfEducation/>
                       </Card>
                   </div>
                 </div>

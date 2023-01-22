@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import HBRSComponent from "./ChildComponents/HBRSComponent";
 import GAOComponent from "./ChildComponents/GAOComponent";
-import styles from "./contentStyles.module.css";
-const ListOfEducation = () => {
+
+const ListofWork = () => {
     return <React.Fragment>
-        <h3>Education</h3>
+            <h3>Education</h3>
             <HBRSComponent/>
             <GAOComponent/>
-    </React.Fragment>
+        </React.Fragment>
 }
-export default ListOfEducation;
+export default ListofWork;
