@@ -4,8 +4,9 @@ import styles from "./contentStyles.module.css";
 import SECACAMComponent from "./ChildComponents/SECACAMComponent";
 const ListofWork = props => {
     return <div className={styles}>
-            <h3>Education</h3>
+            <h3>Work-Experience</h3>
             <GAOComponent/>
+            <SECACAMComponent/>
             <SECACAMComponent theme={props.theme}/>
         </div>
 }

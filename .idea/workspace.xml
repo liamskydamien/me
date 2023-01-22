@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding text">
-      <change afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/SECACAMComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/secacamStyles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pictures/SECACAM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pictures/SECACAM_Dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pictures/SECACAM_Light.png" afterDir="false" />
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding Content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,14 +117,7 @@
       <workItem from="1674404081281" duration="625000" />
       <workItem from="1674410586560" duration="508000" />
       <workItem from="1674411128478" duration="102000" />
-      <workItem from="1674418807526" duration="2660000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit 2">
-      <created>1671662505176</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1671662505176</updated>
+      <workItem from="1674418807526" duration="4068000" />
     </task>
     <task id="LOCAL-00002" summary="Adding Card Component">
       <created>1671730943485</created>
@@ -453,7 +441,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674419984137</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Trying to add darkmode to logo">
+      <created>1674421500546</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1674421500546</updated>
+    </task>
+    <task id="LOCAL-00049" summary="I was stupid now it works">
+      <created>1674422005728</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1674422005728</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Adding Content">
+      <created>1674422594321</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1674422594321</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,9 +481,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding some additional information" />
-    <MESSAGE value="Fixed positioning" />
-    <MESSAGE value="Adding Navbar" />
     <MESSAGE value="Not sure about the colors" />
     <MESSAGE value="New Design" />
     <MESSAGE value="Adding variations" />
@@ -497,6 +503,9 @@
     <MESSAGE value="styling" />
     <MESSAGE value="Adding Work" />
     <MESSAGE value="Adding text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding text" />
+    <MESSAGE value="Trying to add darkmode to logo" />
+    <MESSAGE value="I was stupid now it works" />
+    <MESSAGE value="Adding Content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Content" />
   </component>
 </project>
