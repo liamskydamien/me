@@ -19,11 +19,10 @@ const SECACAMComponent = props => {
     return <div className={styles.wrapper} onClick={expansionHandler}>
         <img src={props.theme === 'light' ? secacamLight : secacamDark} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
         <div className={styles.content}>
-            <h4>Hochschule Bonn-Rhein-Sieg</h4>
-            <h5>Bachelor of Science Wirtschaftsinformatik</h5>
-            <p>Aktuell 4. Fachsemester voraussichtlicher Abschluss 10/2024.
-                Notendurchschnitt: 1.7
-            </p>
+            <h4>Customer Service</h4>
+            <h5>At SECACAM by Ventrade GmbH</h5>
+            <p>From 06/2020 to 10/2022
+               I helped our customers via E-Mail support to understand our products and resolve problems.</p>
         </div>
         <div className={styles.skills + " " + isExpanded + " " + specificStyles.skills}>
             <p className={styles.text}>
