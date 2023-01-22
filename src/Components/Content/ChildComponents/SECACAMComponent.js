@@ -15,16 +15,9 @@ const SECACAMComponent = props => {
         }
     };
 
-    const setPicture = () => {
-        if (props.theme === "light") {
-            return secacamLight;
-        } else {
-            return secacamDark;
-        }
-    };
 
     return <div className={styles.wrapper} onClick={expansionHandler}>
-        <img src={setPicture()} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
+        <img src={props.theme === 'light' ? secacamLight : secacamDark} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
         <div className={styles.content}>
             <h4>Hochschule Bonn-Rhein-Sieg</h4>
             <h5>Bachelor of Science Wirtschaftsinformatik</h5>
