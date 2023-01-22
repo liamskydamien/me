@@ -6,6 +6,7 @@ import Slideshow from "./Components/PictureSlider/Slideshow";
 import Navbar from "./Components/Navbar/Navbar";
 import ListOfEducation from "./Components/Content/ListOfEducation";
 import ListofWork from "./Components/Content/ListofWork";
+import Skills from "./Components/Skills/Skills";
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -46,6 +47,9 @@ function App() {
                           <ListOfEducation/>
                       </Card>
                   </div>
+                    <div className="Skills">
+                        <Skills/>
+                    </div>
                 </div>
             </div>
 }
