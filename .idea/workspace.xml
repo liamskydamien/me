@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding Work">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding text">
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/SECACAMComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/secacamStyles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pictures/SECACAM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pictures/SECACAM_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pictures/SECACAM_Light.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/hbrsStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/hbrsStyles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -119,7 +122,7 @@
       <workItem from="1674404081281" duration="625000" />
       <workItem from="1674410586560" duration="508000" />
       <workItem from="1674411128478" duration="102000" />
-      <workItem from="1674418807526" duration="943000" />
+      <workItem from="1674418807526" duration="2660000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1671662505176</created>
@@ -443,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674411087639</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Adding text">
+      <created>1674419984137</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1674419984137</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +472,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finally" />
     <MESSAGE value="Adding some additional information" />
     <MESSAGE value="Fixed positioning" />
     <MESSAGE value="Adding Navbar" />
@@ -487,6 +496,7 @@
     <MESSAGE value="Adding global Colors" />
     <MESSAGE value="styling" />
     <MESSAGE value="Adding Work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Work" />
+    <MESSAGE value="Adding text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding text" />
   </component>
 </project>

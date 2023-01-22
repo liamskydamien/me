@@ -40,7 +40,7 @@ function App() {
                           <h2>Experiences</h2>
                       </Card>
                       <Card className="Work">
-                          <ListofWork></ListofWork>
+                          <ListofWork theme={theme}/>
                       </Card>
                       <Card className="Education expandableCard">
                           <ListOfEducation/>
