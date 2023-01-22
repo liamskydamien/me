@@ -3,10 +3,10 @@ import HBRSComponent from "./ChildComponents/HBRSComponent";
 import GAOComponent from "./ChildComponents/GAOComponent";
 import styles from "./contentStyles.module.css";
 const ListOfEducation = () => {
-    return <React.Fragment>
+    return <div className={styles}>
         <h3>Education</h3>
             <HBRSComponent/>
             <GAOComponent/>
-    </React.Fragment>
+    </div>
 }
 export default ListOfEducation;

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="styling">
-      <change afterPath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" afterDir="false" />
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding Work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/hbrsStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/hbrsStyles.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListOfEducation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +117,9 @@
       <workItem from="1674317788007" duration="352000" />
       <workItem from="1674325031540" duration="3503000" />
       <workItem from="1674404081281" duration="625000" />
-      <workItem from="1674410586560" duration="486000" />
+      <workItem from="1674410586560" duration="508000" />
+      <workItem from="1674411128478" duration="102000" />
+      <workItem from="1674418807526" duration="943000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit 2">
       <created>1671662505176</created>
@@ -432,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674327898825</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Adding Work">
+      <created>1674411087639</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1674411087639</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +462,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finding out to align the buttons properly" />
     <MESSAGE value="Finally" />
     <MESSAGE value="Adding some additional information" />
     <MESSAGE value="Fixed positioning" />
@@ -476,6 +486,7 @@
     <MESSAGE value="Adding GaO" />
     <MESSAGE value="Adding global Colors" />
     <MESSAGE value="styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling" />
+    <MESSAGE value="Adding Work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Work" />
   </component>
 </project>
