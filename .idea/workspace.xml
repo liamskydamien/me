@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Layout">
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/Experience.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/Experience.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pictures/ZDHZERT.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,14 +123,8 @@
       <workItem from="1674411128478" duration="102000" />
       <workItem from="1674418807526" duration="6320000" />
       <workItem from="1674491435005" duration="601000" />
-      <workItem from="1674498812596" duration="1565000" />
-    </task>
-    <task id="LOCAL-00005" summary="Changing names">
-      <created>1671821827295</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1671821827295</updated>
+      <workItem from="1674498812596" duration="1597000" />
+      <workItem from="1674500699807" duration="1909000" />
     </task>
     <task id="LOCAL-00006" summary="Fixing grid">
       <created>1672856486477</created>
@@ -465,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674499488276</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Layout">
+      <created>1674500388939</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1674500388939</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
