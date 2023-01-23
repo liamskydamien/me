@@ -50,7 +50,11 @@ function App() {
                     <div className="Skills">
                         <Skills/>
                     </div>
+                    <div className="Projects">
+
+                    </div>
                 </div>
+
             </div>
 }
 export default App;
