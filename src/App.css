@@ -3,12 +3,15 @@
 }
 
 .body{
-  padding: 6rem 20% 0 20%;
   background-image: var(--background);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.width{
+  padding: 6rem 20% 0 20%;
 }
 
 .aboutMe {
