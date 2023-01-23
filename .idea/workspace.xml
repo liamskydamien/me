@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="fixes">
-      <change afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +116,8 @@
       <workItem from="1674410586560" duration="508000" />
       <workItem from="1674411128478" duration="102000" />
       <workItem from="1674418807526" duration="6320000" />
+      <workItem from="1674491435005" duration="601000" />
+      <workItem from="1674498812596" duration="321000" />
     </task>
     <task id="LOCAL-00003" summary="Adding grid">
       <created>1671818379066</created>
