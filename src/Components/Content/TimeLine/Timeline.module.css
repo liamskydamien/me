@@ -1,0 +1,35 @@
+
+.layer{
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.layer_text{
+    display: flex;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: var(--text-color);
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.filler{
+    width: 100%;
+    display: inline-block;
+}
+
+.line{
+    margin-top: 3px;
+    height: 2px;
+    width: 100%;
+    background-color: var(--text-color);
+    display: inline-block;
+}
+

@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Layout">
-      <change afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Content/Experience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Content/Experience.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pictures/ZDHZERT.png" afterDir="false" />
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding timeline">
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/TimeLine/TimeLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/TimeLine/Timeline.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ListofWork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/GAOComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/GAOComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/SECACAMComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/SECACAMComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,14 +124,7 @@
       <workItem from="1674418807526" duration="6320000" />
       <workItem from="1674491435005" duration="601000" />
       <workItem from="1674498812596" duration="1597000" />
-      <workItem from="1674500699807" duration="1909000" />
-    </task>
-    <task id="LOCAL-00006" summary="Fixing grid">
-      <created>1672856486477</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1672856486477</updated>
+      <workItem from="1674500699807" duration="7861000" />
     </task>
     <task id="LOCAL-00007" summary="Adding Background Image">
       <created>1672858057912</created>
@@ -469,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674500388939</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Refactoring">
+      <created>1674502659230</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1674502659230</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,8 +488,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding variations" />
-    <MESSAGE value="Add animated background" />
     <MESSAGE value="Changing background" />
     <MESSAGE value="Changing pictures" />
     <MESSAGE value="Adding darkmode toggle" />
@@ -513,6 +511,8 @@
     <MESSAGE value="Adding Content" />
     <MESSAGE value="fixes" />
     <MESSAGE value="Layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layout" />
+    <MESSAGE value="Refactoring" />
+    <MESSAGE value="Adding timeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding timeline" />
   </component>
 </project>

@@ -3,6 +3,7 @@ import specificStyles from "./gaoStyles.module.css";
 import styles from "./componentStyles.module.css";
 import zdhzert from "../../../Pictures/ZDHZERT.png";
 import {FaCity, FaCode, FaRegComments, FaSquareRootAlt} from "react-icons/fa";
+import TimeLine from "../TimeLine/TimeLine";
 
 const ZDHZertComponent = () => {
     const [isExpanded, setIsExpanded] = useState(specificStyles.hidden);
@@ -14,6 +15,7 @@ const ZDHZertComponent = () => {
         }
     };
     return <div className={styles.wrapper} onClick={expansionHandler}>
+        <TimeLine className={styles.timeline} start={"10/2022"} end={"today"}/>
         <img src={zdhzert} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
         <div className={styles.content}>
             <h4>Project-Manager</h4>

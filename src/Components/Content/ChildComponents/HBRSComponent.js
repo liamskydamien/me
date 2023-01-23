@@ -3,6 +3,7 @@ import styles from "./componentStyles.module.css";
 import specificStyles from "./hbrsStyles.module.css";
 import {FaCode, FaNetworkWired, FaPoll, FaRegLightbulb} from "react-icons/fa";
 import React, {useState} from "react";
+import TimeLine from "../TimeLine/TimeLine";
 
 const HBRSComponent = () => {
     const [isExpanded, setIsExpanded] = useState(specificStyles.hidden);
@@ -14,6 +15,7 @@ const HBRSComponent = () => {
         }
     };
     return <div className={styles.wrapper} onClick={expansionHandler}>
+        <TimeLine className={styles.timeline} start={"10/2021"} end={"today"}/>
         <img src={hbrs} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
         <div className={styles.content}>
             <h4>Hochschule Bonn-Rhein-Sieg</h4>

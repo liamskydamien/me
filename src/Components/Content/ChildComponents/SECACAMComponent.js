@@ -4,6 +4,7 @@ import styles from "./componentStyles.module.css";
 import secacamLight from "../../../Pictures/SECACAM_Light.png";
 import secacamDark from "../../../Pictures/SECACAM_Dark.png";
 import {FaCode, FaNetworkWired, FaPoll, FaRegLightbulb} from "react-icons/fa";
+import TimeLine from "../TimeLine/TimeLine";
 
 const SECACAMComponent = props => {
     const [isExpanded, setIsExpanded] = useState(specificStyles.hidden);
@@ -17,6 +18,7 @@ const SECACAMComponent = props => {
 
 
     return <div className={styles.wrapper} onClick={expansionHandler}>
+        <TimeLine className={styles.timeline} start={"06/2020"} end={"10/2022"}/>
         <img src={props.theme === 'light' ? secacamLight : secacamDark} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
         <div className={styles.content}>
             <h4>Customer Service</h4>
