@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import specificStyles from "./gaoStyles.module.css";
 import styles from "./componentStyles.module.css";
 import zdhzert from "../../../Pictures/ZDHZERT.png";
-import {FaCity, FaCode, FaRegComments, FaSquareRootAlt} from "react-icons/fa";
 import TimeLine from "../TimeLine/TimeLine";
 
 const ZDHZertComponent = () => {

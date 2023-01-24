@@ -1,0 +1,21 @@
+.wrapper{
+    padding: 2.5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--background-navbar);
+    grid-template-rows: [Logo] 1fr 8rem;
+}
+
+.picture{
+    grid-row: Logo;
+    grid-column: 1;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+.content{
+    grid-row: 2;
+    grid-column: 1;
+    text-align: center;
+}

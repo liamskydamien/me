@@ -39,7 +39,7 @@ function App() {
                             </p>
                         </Card>
                     </div>
-                    <Experience className="experiences"/>
+                    <Experience className="experiences" theme={theme}/>
                     <div className="Skills">
                         <Skills/>
                     </div>
