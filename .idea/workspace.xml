@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="fixing">
-      <change afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/Kantian.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/KantianWebdesign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/WipUG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/contentStyles.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Selfemployed/SelfEmployed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Selfemployed/SelfEmployed.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pictures/Kantian_Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pictures/Kantian_White.png" afterDir="false" />
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding selfemployed">
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/TimeLine/LongTimeLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/TimeLine/LongTimeLine.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/Experience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/SelfEmployed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/SelfEmployed.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -131,14 +123,7 @@
       <workItem from="1674500699807" duration="8115000" />
       <workItem from="1674569375733" duration="1234000" />
       <workItem from="1674580065164" duration="5000" />
-      <workItem from="1674598168139" duration="4841000" />
-    </task>
-    <task id="LOCAL-00010" summary="Fixing images">
-      <created>1673113001768</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1673113001768</updated>
+      <workItem from="1674598168139" duration="5323000" />
     </task>
     <task id="LOCAL-00011" summary="Finding out to align the buttons properly">
       <created>1673113776458</created>
@@ -476,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674598588958</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Adding selfemployed">
+      <created>1674604280889</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1674604280889</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +487,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding darkmode toggle" />
     <MESSAGE value="Styling butto" />
     <MESSAGE value="Adding List Entries" />
     <MESSAGE value="Adding Entries" />
@@ -520,6 +511,7 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Adding GetInIT Link" />
     <MESSAGE value="fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing" />
+    <MESSAGE value="Adding selfemployed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding selfemployed" />
   </component>
 </project>
