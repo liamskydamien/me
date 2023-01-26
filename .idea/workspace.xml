@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Chaning some styles">
-      <change afterPath="$PROJECT_DIR$/src/Components/Skills/IconSkill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Skills/IconSkill.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Skills/SkillCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/IconSkill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/IconSkill.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/SkillCard.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,14 +127,7 @@
       <workItem from="1674580065164" duration="5000" />
       <workItem from="1674598168139" duration="5815000" />
       <workItem from="1674648693654" duration="56000" />
-      <workItem from="1674769863350" duration="1912000" />
-    </task>
-    <task id="LOCAL-00013" summary="Adding some additional information">
-      <created>1673122315708</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1673122315708</updated>
+      <workItem from="1674769863350" duration="4467000" />
     </task>
     <task id="LOCAL-00014" summary="styling">
       <created>1673128897552</created>
@@ -472,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674770236451</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Chaning some styles">
+      <created>1674771815246</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1674771815247</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
