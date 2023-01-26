@@ -27,13 +27,9 @@ function App() {
                         <Slideshow className="PictureSlider"/>
                         <Card className="Hi">
                             <h2 style={{textAlign:"left"}}>Hi, I'm Liam</h2>
-                        </Card>
-                        <Card className="General">
                             <p style={{textAlign:"left"}} >Liam Sky Damien Heß</p>
                             <p style={{textAlign:"left"}} >  Born in Bonn, Germany on the 15th of August 2001</p>
                             <p style={{textAlign:"left"}}> Address: Alter Heeresweg 11, 53639 Königswinter</p>
-                        </Card>
-                        <Card className="AboutMyself">
                             <p>
                                 My name is Liam and I'm 21 years old. I'm a student at the HBRS in Bonn and I'm currently studying computer science.
                             </p>

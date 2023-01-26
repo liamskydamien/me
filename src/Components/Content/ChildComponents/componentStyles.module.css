@@ -12,6 +12,8 @@
 .wrapper:hover{
     z-index: 98;
     cursor: pointer;
+    transform: scale(1.05);
+    transition: 250ms;
 }
 
 .wrapper img{
