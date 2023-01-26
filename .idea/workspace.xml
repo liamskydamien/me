@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding Timeline">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Chaning some styles">
+      <change afterPath="$PROJECT_DIR$/src/Components/Skills/IconSkill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Skills/IconSkill.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Skills/SkillCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/contentStyles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Card/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Card/Card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,14 +127,7 @@
       <workItem from="1674580065164" duration="5000" />
       <workItem from="1674598168139" duration="5815000" />
       <workItem from="1674648693654" duration="56000" />
-      <workItem from="1674769863350" duration="340000" />
-    </task>
-    <task id="LOCAL-00012" summary="Finally">
-      <created>1673118707470</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1673118707470</updated>
+      <workItem from="1674769863350" duration="1912000" />
     </task>
     <task id="LOCAL-00013" summary="Adding some additional information">
       <created>1673122315708</created>
@@ -473,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674604696599</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Chaning some styles">
+      <created>1674770236450</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1674770236451</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding List Entries" />
     <MESSAGE value="Adding Entries" />
     <MESSAGE value="Styling" />
     <MESSAGE value="Order skills" />
@@ -517,6 +515,7 @@
     <MESSAGE value="fixing" />
     <MESSAGE value="Adding selfemployed" />
     <MESSAGE value="Adding Timeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Timeline" />
+    <MESSAGE value="Chaning some styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chaning some styles" />
   </component>
 </project>
