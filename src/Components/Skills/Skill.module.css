@@ -1,0 +1,37 @@
+.wrapper{
+    border-radius: 25px;
+}
+
+.blue{
+    background-color: var(--lightblue);
+}
+
+.green{
+    background-color: var(--lightgreen);
+}
+
+.purple{
+    background-color: Var(--lightpurple);
+}
+
+.orange{
+    background-color: var(--lightorange);
+}
+
+.yellow{
+    background-color: var(--lightyellow);
+}
+
+.dark-blue{
+    background-color: var(--darkblue);
+}
+
+.dark-green{
+    background-color: var(--darkgreen);
+}
+
+.dark-purple{
+    background-color: var(--darkpurple);
+}
+
+
