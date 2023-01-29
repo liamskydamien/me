@@ -13,6 +13,10 @@
     flex-wrap: wrap;
 }
 
+.list{
+    display: -ms-flex;
+    padding: 2%;
+}
 
 .header{
     grid-row: header;
