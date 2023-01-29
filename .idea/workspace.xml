@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Skill Component">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Adding switch for deciding color">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skill.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skill.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,14 +131,7 @@
       <workItem from="1674841313774" duration="19000" />
       <workItem from="1674843727138" duration="7000" />
       <workItem from="1675006508933" duration="4000" />
-      <workItem from="1675006527046" duration="1091000" />
-    </task>
-    <task id="LOCAL-00018" summary="Adding Navbar">
-      <created>1673136733914</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1673136733914</updated>
+      <workItem from="1675006527046" duration="2332000" />
     </task>
     <task id="LOCAL-00019" summary="Styling">
       <created>1673136935300</created>
@@ -474,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675007361185</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Adding switch for deciding color">
+      <created>1675007670188</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1675007670188</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Styling" />
     <MESSAGE value="Order skills" />
     <MESSAGE value="Adding Animation" />
     <MESSAGE value="Adding scaling" />
@@ -518,6 +519,7 @@
     <MESSAGE value="Adding Timeline" />
     <MESSAGE value="Chaning some styles" />
     <MESSAGE value="Skill Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Skill Component" />
+    <MESSAGE value="Adding switch for deciding color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding switch for deciding color" />
   </component>
 </project>

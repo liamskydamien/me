@@ -1,6 +1,30 @@
 .wrapper{
     border-radius: 25px;
     display: flex;
+    padding: 1% 5% 1% 5%;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.45);
+    margin-bottom: 1%;
+}
+
+.wrapper:hover{
+    transform: scale(1.05);
+    transition: 250ms;
+    cursor: pointer;
+}
+
+
+.title{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);;
+}
+
+.icon{
+    padding-top: 2px;
+    padding-right: 5px;
+    color: var(--text-color);
 }
 
 .blue{
@@ -23,15 +47,15 @@
     background-color: var(--lightyellow);
 }
 
-.dark-blue{
+.darkBlue{
     background-color: var(--darkblue);
 }
 
-.dark-green{
+.darkGreen{
     background-color: var(--darkgreen);
 }
 
-.dark-purple{
+.darkPurple{
     background-color: var(--darkpurple);
 }
 

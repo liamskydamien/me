@@ -2,8 +2,6 @@ import styles from './Skill.module.css'
 const Skill = props => {
     const color = () => {
         switch (props.color) {
-            case 'red':
-                return styles.red;
             case 'green':
                 return styles.green;
             case 'yellow':
@@ -25,8 +23,8 @@ const Skill = props => {
 
     const classes = styles.wrapper + ' ' + color();
     return <div className={classes}>
-        <div>{props.icon}</div>
-        <div>{props.title}</div>
+        <div className={styles.icon}>{props.icon}</div>
+        <div className={styles.title}>{props.title}</div>
     </div>
 }
 

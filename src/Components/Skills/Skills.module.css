@@ -6,21 +6,13 @@
     margin: 1rem 0;
 }
 
-.card{
-    background-color: var(--lightblue);
-    border-radius: 5px;
-    padding: 1rem;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-}
-
 .content{
     display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.box{
-    border-radius: 25px;
-    background-color: var(--lightblue);
-}
 
 .header{
     grid-row: header;
