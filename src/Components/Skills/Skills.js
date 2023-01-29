@@ -1,6 +1,7 @@
 import Card from "../../UI/Card/Card";
 import styles from "./Skills.module.css";
 import {FaCode, FaReact} from "react-icons/fa";
+import Skill from "./Skill";
 const Skills = () => {
     const card = styles.card;
     return <div className={styles.layout}>
@@ -10,7 +11,7 @@ const Skills = () => {
         <Card className={styles.programming}>
             <h3>Programming</h3>
             <div className={styles.content}>
-                <Skills
+                <Skill color={'green'} icon={<FaReact/>} title={"React"}/>
             </div>
         </Card>
         <Card className={styles.design}>

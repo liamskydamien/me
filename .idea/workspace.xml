@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Chaning some styles">
-      <change afterPath="$PROJECT_DIR$/src/Components/Skills/Skill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Skills/Skill.module.css" afterDir="false" />
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Skill Component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skill.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,14 +129,7 @@
       <workItem from="1674841313774" duration="19000" />
       <workItem from="1674843727138" duration="7000" />
       <workItem from="1675006508933" duration="4000" />
-      <workItem from="1675006527046" duration="651000" />
-    </task>
-    <task id="LOCAL-00016" summary="styling">
-      <created>1673131473279</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1673131473279</updated>
+      <workItem from="1675006527046" duration="812000" />
     </task>
     <task id="LOCAL-00017" summary="Fixed positioning">
       <created>1673134003352</created>
@@ -476,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674776147249</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Skill Component">
+      <created>1675007192083</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1675007192083</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +493,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Entries" />
     <MESSAGE value="Styling" />
     <MESSAGE value="Order skills" />
     <MESSAGE value="Adding Animation" />
@@ -520,6 +517,7 @@
     <MESSAGE value="Adding selfemployed" />
     <MESSAGE value="Adding Timeline" />
     <MESSAGE value="Chaning some styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chaning some styles" />
+    <MESSAGE value="Skill Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skill Component" />
   </component>
 </project>
