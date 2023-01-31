@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.0fa443d6.css",
-    "main.js": "/me/static/js/main.00943941.js",
+    "main.css": "/me/static/css/main.96480393.css",
+    "main.js": "/me/static/js/main.41464653.js",
     "static/js/787.ee95881d.chunk.js": "/me/static/js/787.ee95881d.chunk.js",
     "static/media/Selbstportrait.jpg": "/me/static/media/Selbstportrait.eb0b749503bbad7a80c2.jpg",
     "static/media/Kantian_White.png": "/me/static/media/Kantian_White.3548b6d0bd017bdbe288.png",
@@ -18,12 +18,12 @@
     "static/media/Dark-Background.svg": "/me/static/media/Dark-Background.afb1ade09ee699457a05.svg",
     "static/media/Light-Background.svg": "/me/static/media/Light-Background.bf8d0f78b0285dbde500.svg",
     "index.html": "/me/index.html",
-    "main.0fa443d6.css.map": "/me/static/css/main.0fa443d6.css.map",
-    "main.00943941.js.map": "/me/static/js/main.00943941.js.map",
+    "main.96480393.css.map": "/me/static/css/main.96480393.css.map",
+    "main.41464653.js.map": "/me/static/js/main.41464653.js.map",
     "787.ee95881d.chunk.js.map": "/me/static/js/787.ee95881d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fa443d6.css",
-    "static/js/main.00943941.js"
+    "static/css/main.96480393.css",
+    "static/js/main.41464653.js"
   ]
 }
