@@ -7,6 +7,7 @@
     <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="mobile optimisation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,14 +132,7 @@
       <workItem from="1675006508933" duration="4000" />
       <workItem from="1675006527046" duration="4047000" />
       <workItem from="1675091112570" duration="7000" />
-      <workItem from="1675197851201" duration="1968000" />
-    </task>
-    <task id="LOCAL-00023" summary="Adding variations">
-      <created>1673183448824</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1673183448824</updated>
+      <workItem from="1675197851201" duration="2886000" />
     </task>
     <task id="LOCAL-00024" summary="Add animated background">
       <created>1673183635674</created>
@@ -476,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675199116585</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="mobile optimisation">
+      <created>1675199964053</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1675199964053</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

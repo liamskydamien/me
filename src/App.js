@@ -9,6 +9,7 @@ import ListofWork from "./Components/Content/ListofWork";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
 import Experience from "./Components/Content/Experience";
+import Skill from "./Components/Skills/Skill";
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -36,9 +37,7 @@ function App() {
                         </Card>
                     </div>
                     <Experience className="experiences" theme={theme}/>
-                    <div className="Skills">
-                        <Skills/>
-                    </div>
+                    <Skills/>
                     <div className="Projects">
                     </div>
                 </div>

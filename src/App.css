@@ -26,6 +26,7 @@
     display: grid;
     grid-template-rows: [header]75px [slider]35rem 1fr;
     grid-template-columns: 1fr;
+    margin-bottom: 5%;
   }
   .Header {
     grid-area: 1 / 1 / 2 / 2;
