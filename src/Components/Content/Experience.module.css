@@ -26,7 +26,7 @@
     .experiences{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: [top]75px 1fr 1fr 1fr;
+        grid-template-rows: [top]75px [Exp]0.5fr [Edu]0.5fr 1fr;
         gap: 10px 15px;
     }
     .ExperiencesHeader {
