@@ -24,7 +24,7 @@
 @media only screen and (max-width: 768px) {
   .aboutMe {
     display: grid;
-    grid-template-rows: [header]75px [slider]55rem 1fr;
+    grid-template-rows: [header]75px [slider]35rem 1fr;
     grid-template-columns: 1fr;
   }
   .Header {

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Finishing Skills">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="mobile optimisation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +131,7 @@
       <workItem from="1675006508933" duration="4000" />
       <workItem from="1675006527046" duration="4047000" />
       <workItem from="1675091112570" duration="7000" />
-      <workItem from="1675197851201" duration="1230000" />
-    </task>
-    <task id="LOCAL-00022" summary="Not sure about the colors">
-      <created>1673182185747</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1673182185747</updated>
+      <workItem from="1675197851201" duration="1968000" />
     </task>
     <task id="LOCAL-00023" summary="Adding variations">
       <created>1673183448824</created>
@@ -475,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675010519267</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="mobile optimisation">
+      <created>1675199116584</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1675199116585</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="making it smooth" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="Refactor HBRS" />
     <MESSAGE value="Adding GaO" />
@@ -519,6 +519,7 @@
     <MESSAGE value="Adding programming skills" />
     <MESSAGE value="Adding more skills" />
     <MESSAGE value="Finishing Skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Skills" />
+    <MESSAGE value="mobile optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile optimisation" />
   </component>
 </project>
