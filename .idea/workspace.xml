@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="mobile optimisation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/Experience.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/Experience.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,14 +131,7 @@
       <workItem from="1675006508933" duration="4000" />
       <workItem from="1675006527046" duration="4047000" />
       <workItem from="1675091112570" duration="7000" />
-      <workItem from="1675197851201" duration="2886000" />
-    </task>
-    <task id="LOCAL-00024" summary="Add animated background">
-      <created>1673183635674</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1673183635674</updated>
+      <workItem from="1675197851201" duration="4476000" />
     </task>
     <task id="LOCAL-00025" summary="Changing background">
       <created>1673211940825</created>
@@ -477,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675199964053</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="mobile optimisation">
+      <created>1675200792614</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1675200792614</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

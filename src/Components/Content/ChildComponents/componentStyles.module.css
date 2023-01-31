@@ -62,3 +62,41 @@
     grid-row: 1;
     grid-column: 1 / 4;
 }
+
+
+@media (max-width: 768px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: [timeline]50px [image]7.5rem 1fr;
+    }
+    .wrapper img{
+        grid-row: image;
+        grid-column: 1;
+        width: 50%;
+        display: block;
+        margin: auto
+    ;
+    }
+
+    .wrapper .content{
+        grid-row: 3;
+        grid-column: 1;
+        /*padding: 5% 5% 5% 5%;*/
+        text-align: center;
+    }
+
+    .content p{
+        display: none;
+    }
+
+    .skills{
+        display: none;
+    }
+
+    .timeline{
+        grid-row: timeline;
+        grid-column: 1;
+    }
+
+}

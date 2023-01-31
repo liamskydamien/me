@@ -17,10 +17,29 @@
     grid-area: 2 / 2 / 3 / 3;
 }
 
-.Skills {
-    grid-area: 3 / 1 / 4 / 3;
+.SelfEmployment {
+    grid-area: 3 / 1 / 5 / 3;
 }
 
-.SelfEmployment {
-    grid-area: 4 / 1 / 5 / 3;
+
+@media only screen and (max-width: 768px) {
+    .experiences{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: [top]75px 1fr 1fr 1fr;
+        gap: 10px 15px;
+    }
+    .ExperiencesHeader {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .Work {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .Education {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .SelfEmployment {
+        grid-area: 4 / 1 / 6 / 2;
+    }
 }
