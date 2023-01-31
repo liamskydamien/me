@@ -4,6 +4,7 @@
     grid-template-columns: 1fr;
     background-color: var(--background-navbar);
     grid-template-rows: [Logo] 1fr 8rem;
+    margin-bottom: 5%;
 }
 
 .wrapper:hover{

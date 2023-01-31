@@ -70,7 +70,7 @@
         display: grid;
         grid-template-rows: [header] 75px 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        margin: 6rem 0;
+        margin: 5% 0 6rem 0;
         grid-gap: 1rem;
     }
 

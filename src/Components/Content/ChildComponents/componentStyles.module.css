@@ -73,7 +73,7 @@
     .wrapper img{
         grid-row: image;
         grid-column: 1;
-        width: 50%;
+        width: 35%;
         display: block;
         margin: auto
     ;
@@ -88,6 +88,10 @@
 
     .content p{
         display: none;
+    }
+
+    .content p:hover{
+        display: block;
     }
 
     .skills{

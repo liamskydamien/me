@@ -1,5 +1,17 @@
-.flex{
-    display: flex;
-    padding: 0 5% 2.5% 5%;
-    gap: 20px;
+@media (min-width: 768px) {
+    .flex{
+        display: flex;
+        padding: 0 5% 2.5% 5%;
+        gap: 20px;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .flex{
+        display: -ms-flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 5% 10% 10% 5%
+    }
 }

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="mobile optimisation">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Responsiveness for Jobs and Education">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/Experience.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/Experience.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/contentStyles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/SelfEmployed.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/SelfEmployed.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,14 +133,7 @@
       <workItem from="1675006508933" duration="4000" />
       <workItem from="1675006527046" duration="4047000" />
       <workItem from="1675091112570" duration="7000" />
-      <workItem from="1675197851201" duration="4476000" />
-    </task>
-    <task id="LOCAL-00025" summary="Changing background">
-      <created>1673211940825</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1673211940825</updated>
+      <workItem from="1675197851201" duration="6000000" />
     </task>
     <task id="LOCAL-00026" summary="Changing pictures">
       <created>1673212048420</created>
@@ -476,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675200792614</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Responsiveness for Jobs and Education">
+      <created>1675202368622</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1675202368622</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +497,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactoring" />
     <MESSAGE value="Refactor HBRS" />
     <MESSAGE value="Adding GaO" />
     <MESSAGE value="Adding global Colors" />
@@ -520,6 +521,7 @@
     <MESSAGE value="Adding more skills" />
     <MESSAGE value="Finishing Skills" />
     <MESSAGE value="mobile optimisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile optimisation" />
+    <MESSAGE value="Responsiveness for Jobs and Education" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsiveness for Jobs and Education" />
   </component>
 </project>
