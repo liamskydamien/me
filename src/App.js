@@ -18,7 +18,7 @@ function App() {
         theme === "light" ? setTheme("dark") : setTheme("light");
     };
     return  <div className="App" data-theme={theme}>
-                <Navbar onThemeChange={toggleThemeHandler}></Navbar>
+                <Navbar onThemeChange={toggleThemeHandler} theme={theme}></Navbar>
                 <div className="body">
                 <div className="width">
                     <div className="aboutMe">

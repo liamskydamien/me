@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Mobile optimisation">
-      <change afterPath="$PROJECT_DIR$/src/Pictures/Unbenannt-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pictures/LogoDM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pictures/LogoLM.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/TimeLine/LongTimeLine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/TimeLine/LongTimeLine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/Kantian.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/Kantian.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/KantianWebdesign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/KantianWebdesign.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/WipUG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/contentStyles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/SelfEmployed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/SelfEmployed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,14 +137,7 @@
       <workItem from="1675197851201" duration="6920000" />
       <workItem from="1675369438950" duration="27000" />
       <workItem from="1675536881736" duration="3492000" />
-      <workItem from="1675544304440" duration="1354000" />
-    </task>
-    <task id="LOCAL-00031" summary="Styling">
-      <created>1673726061397</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1673726061397</updated>
+      <workItem from="1675544304440" duration="2074000" />
     </task>
     <task id="LOCAL-00032" summary="Styling">
       <created>1673726422835</created>
@@ -484,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675545075770</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Mobile optimisation">
+      <created>1675545932682</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1675545932682</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -2,6 +2,8 @@ import styles from './Navbar.module.css'
 import {FaEnvelope, FaLinkedinIn, FaGithub, FaInstagram} from "react-icons/fa";
 import {useState} from "react";
 import ReactSwitch from "react-switch";
+import logoDm from '../../Pictures/LogoDM.png';
+import logoLm from '../../Pictures/LogoLM.png';
 const Navbar = props => {
     const toggleTheme = () => {
         props.onThemeChange();
@@ -10,8 +12,8 @@ const Navbar = props => {
     const [checked, setChecked] = useState(false);
 
     return  <div className={styles.Navbar}>
-                <div className="Navbar__Logo">
-                    <a href="/">Logo</a>
+                <div className={styles.Navbar__Logo}>
+                    <img src={props.theme === 'light' ? logoLm : logoDm} alt={"Logo of Website"}/>
                 </div>
                 <div className={styles.navbarLinks}>
                     <a href="/">Home</a>
