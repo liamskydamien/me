@@ -21,16 +21,16 @@ const Navbar = props => {
                     <a href="/">Contact</a>
                 </div>
                 <div className={styles.socials}>
-                    <a className={styles.Email} href="/">
+                    <a className={styles.Email} href="mailto:liamskydamien@gmail.com">
                         <FaEnvelope size={35}/>
                     </a>
-                    <a className={styles.LinkedIn} href="/">
+                    <a className={styles.LinkedIn} href="https://www.linkedin.com/in/liam-he%C3%9F-b91160219/">
                         <FaLinkedinIn size={35}/>
                     </a>
-                    <a className={styles.GitHub} href="/">
+                    <a className={styles.GitHub} href="https://github.com/liamskydamien">
                         <FaGithub size={35}/>
                     </a>
-                    <a className={styles.Instagram} href="/">
+                    <a className={styles.Instagram} href="https://www.instagram.com/liamsky_/">
                         <FaInstagram size={35}/>
                     </a>
                     <div className={styles.themeSwitch}>

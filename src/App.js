@@ -4,12 +4,9 @@ import './App.css';
 import Card from "./UI/Card/Card";
 import Slideshow from "./Components/PictureSlider/Slideshow";
 import Navbar from "./Components/Navbar/Navbar";
-import ListOfEducation from "./Components/Content/ListOfEducation";
-import ListofWork from "./Components/Content/ListofWork";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
 import Experience from "./Components/Content/Experience";
-import Skill from "./Components/Skills/Skill";
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
