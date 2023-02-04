@@ -5,14 +5,11 @@ const LongTimeLine = props => {
         <div className={styles.layer}>
             <div className={styles.dot}/>
             <div className={styles.line}/>
-            <div className={styles.dot}/>
             <div className={styles.line}/>
             <div className={styles.dot}/>
         </div>
         <div className={styles.layer_text}>
-            <p><b>{2023}</b></p>
-            <div className={styles.filler}/>
-            <p><b>{2021}</b></p>
+            <p><b>today</b></p>
             <div className={styles.filler}/>
             <p><b>{2021}</b></p>
         </div>

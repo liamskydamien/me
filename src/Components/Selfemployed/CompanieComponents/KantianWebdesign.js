@@ -10,7 +10,7 @@ const KantianWebdesign = props => {
         <div className={styles.content}>
             <h4>Liam Hess Webdesign</h4>
             <h5>Founder</h5>
-            <p>I worked as a freelancing Webdesigner. Especially working on WordPress Websites.</p>
+            <p>Im working as a freelancing webdesigner. My work includes WordPress and Webflow Pages.</p>
         </div>
     </Card>
 }

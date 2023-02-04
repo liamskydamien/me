@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Navbar fix">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Mobile optimisation">
+      <change afterPath="$PROJECT_DIR$/src/Pictures/Unbenannt-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/GAOComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/GAOComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/SECACAMComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/SECACAMComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/TimeLine/LongTimeLine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/TimeLine/LongTimeLine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/Kantian.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/Kantian.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/KantianWebdesign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/KantianWebdesign.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/WipUG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/CompanieComponents/contentStyles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Selfemployed/SelfEmployed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Selfemployed/SelfEmployed.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +139,7 @@
       <workItem from="1675197851201" duration="6920000" />
       <workItem from="1675369438950" duration="27000" />
       <workItem from="1675536881736" duration="3492000" />
-      <workItem from="1675544304440" duration="752000" />
-    </task>
-    <task id="LOCAL-00030" summary="Adding Entries">
-      <created>1673638679559</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1673638679559</updated>
+      <workItem from="1675544304440" duration="1354000" />
     </task>
     <task id="LOCAL-00031" summary="Styling">
       <created>1673726061397</created>
@@ -482,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675540368835</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Mobile optimisation">
+      <created>1675545075770</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1675545075770</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +503,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding global Colors" />
     <MESSAGE value="styling" />
     <MESSAGE value="Adding Work" />
     <MESSAGE value="Adding text" />
@@ -526,6 +527,7 @@
     <MESSAGE value="Responsiveness for Jobs and Education" />
     <MESSAGE value="Mobile optimisation selfemployed" />
     <MESSAGE value="Navbar fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar fix" />
+    <MESSAGE value="Mobile optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile optimisation" />
   </component>
 </project>
