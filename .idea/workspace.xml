@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Mobile optimisation">
-      <change afterPath="$PROJECT_DIR$/src/Pictures/LogoDM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pictures/LogoLM.png" afterDir="false" />
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Styling Links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +135,7 @@
       <workItem from="1675197851201" duration="6920000" />
       <workItem from="1675369438950" duration="27000" />
       <workItem from="1675536881736" duration="3492000" />
-      <workItem from="1675544304440" duration="2074000" />
-    </task>
-    <task id="LOCAL-00032" summary="Styling">
-      <created>1673726422835</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1673726422835</updated>
+      <workItem from="1675544304440" duration="2442000" />
     </task>
     <task id="LOCAL-00033" summary="Styling">
       <created>1673727453916</created>
@@ -482,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675545932682</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Styling Links">
+      <created>1675546424990</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546424990</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +499,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="styling" />
     <MESSAGE value="Adding Work" />
     <MESSAGE value="Adding text" />
     <MESSAGE value="Trying to add darkmode to logo" />
@@ -526,6 +523,7 @@
     <MESSAGE value="Mobile optimisation selfemployed" />
     <MESSAGE value="Navbar fix" />
     <MESSAGE value="Mobile optimisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile optimisation" />
+    <MESSAGE value="Styling Links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling Links" />
   </component>
 </project>

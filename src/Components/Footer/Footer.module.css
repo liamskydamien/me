@@ -1,4 +1,6 @@
 .footer{
     background-color: var(--background-navbar);
-    height: 10rem;
+    height: 5rem;
+    text-align: center;
+    padding: 2%;
 }
