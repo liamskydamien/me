@@ -1,5 +1,5 @@
 .active{
-    height: 27rem;
+    height: 12rem;
     transition: all .5s ease-in-out;
 }
 
@@ -8,22 +8,8 @@
     transition: all .5s ease-in-out;
 }
 
-.skills div:nth-child(2){
-    background-color: var(--darkpurple)
-}
-
-.skills div:nth-child(3){
-    background-color: var(--lightblue)
-}
-
-.skills div:nth-child(4){
-    background-color: var(--lightgreen);
-}
-
-.skills div:nth-child(5){
-    background-color: var(--lightorange);
-}
-
-.skills div:nth-child(6){
-    background-color: var(--lightpurple);
+@media (max-width: 1919px) {
+    .active{
+        height: 100%;
+    }
 }

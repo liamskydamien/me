@@ -1,5 +1,5 @@
 .active{
-    height: 7rem;
+    height: 10.5rem;
     transition: all .5s ease-in-out;
 }
 
@@ -7,7 +7,6 @@
     height: 0;
     transition: all .5s ease-in-out;
 }
-
 
 @media (max-width: 768px) {
     .active{

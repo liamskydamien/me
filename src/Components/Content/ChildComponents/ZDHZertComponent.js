@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import specificStyles from "./gaoStyles.module.css";
+import specificStyles from "./zdh.module.css";
 import styles from "./componentStyles.module.css";
 import zdhzert from "../../../Pictures/ZDHZERT.png";
 import TimeLine from "../TimeLine/TimeLine";
@@ -17,10 +17,9 @@ const ZDHZertComponent = () => {
         <TimeLine className={styles.timeline} start={"10/2022"} end={"today"}/>
         <img src={zdhzert} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
         <div className={styles.content}>
-            <h4>Project-Manager</h4>
+            <h4>Project-Manager and Marketing</h4>
             <h5>At ZDH-Zert GmbH</h5>
-            <p>Abschluss am 06/2020 mit einem
-                Notendurchschnitt von 2.0</p>
+            <p>As a working student in project-management and marketing.</p>
         </div>
         <div className={styles.skills + " " + isExpanded + " " + specificStyles.skills}>
             <p>

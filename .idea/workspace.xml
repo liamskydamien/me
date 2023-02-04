@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Mobile optimisation selfemployed">
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Navbar fix">
+      <change afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/zdh.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/GAOComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/GAOComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/HBRSComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/SECACAMComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/SECACAMComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/componentStyles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/gaoStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/gaoStyles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/hbrsStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/hbrsStyles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/secacamStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/secacamStyles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/Experience.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/Experience.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/contentStyles.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,14 +142,9 @@
       <workItem from="1675006508933" duration="4000" />
       <workItem from="1675006527046" duration="4047000" />
       <workItem from="1675091112570" duration="7000" />
-      <workItem from="1675197851201" duration="6800000" />
-    </task>
-    <task id="LOCAL-00028" summary="Styling butto">
-      <created>1673459909319</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1673459909319</updated>
+      <workItem from="1675197851201" duration="6920000" />
+      <workItem from="1675369438950" duration="27000" />
+      <workItem from="1675536881736" duration="3469000" />
     </task>
     <task id="LOCAL-00029" summary="Adding List Entries">
       <created>1673634556031</created>
@@ -475,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675204019148</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Navbar fix">
+      <created>1675204674615</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1675204674616</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +508,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding GaO" />
     <MESSAGE value="Adding global Colors" />
     <MESSAGE value="styling" />
     <MESSAGE value="Adding Work" />
@@ -519,6 +532,7 @@
     <MESSAGE value="mobile optimisation" />
     <MESSAGE value="Responsiveness for Jobs and Education" />
     <MESSAGE value="Mobile optimisation selfemployed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile optimisation selfemployed" />
+    <MESSAGE value="Navbar fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar fix" />
   </component>
 </project>

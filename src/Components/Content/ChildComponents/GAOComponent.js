@@ -2,7 +2,6 @@ import styles from "./componentStyles.module.css";
 import gao from "../../../Pictures/GaO.png";
 import React, {useState} from "react";
 import specificStyles from "./gaoStyles.module.css";
-import {FaSquareRootAlt, FaCity, FaCode, FaRegComments, FaSquare} from "react-icons/fa";
 import TimeLine from "../TimeLine/TimeLine";
 
 const GAOComponent = () => {
@@ -20,15 +19,16 @@ const GAOComponent = () => {
             <img src={gao} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
             <div className={styles.content}>
                 <h4>Gymnasium am Ölberg</h4>
-                <h5>Allgemeine Hochschulreife</h5>
-                <p>Abschluss am 06/2020 mit einem
-                    Notendurchschnitt von 2.0</p>
+                <h5>General University Entrance Qualification</h5>
+                <p>Graduated in 06/2020 <br/>
+                    GPA: 2.0 (1.0 being the best)
+                </p>
             </div>
             <div className={styles.skills + " " + isExpanded + " " + specificStyles.skills}>
-                <div className={styles.skill}><FaSquareRootAlt/> Mathematics</div>
-                <div className={styles.skill}><FaCity/> Macro-Economics and Politics</div>
-                <div className={styles.skill}><FaCode/> Informatics</div>
-                <div className={styles.skill}><FaRegComments/> English</div>
+                <p>
+                    At the "Gymnasium am Ölberg" I received my high school diploma with a grade of 2.0. <br/>
+                    My main focus was on the subjects of mathematics, sociology, english and computer science.
+                </p>
             </div>
         </div>
     </div>

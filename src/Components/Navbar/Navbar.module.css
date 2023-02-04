@@ -7,7 +7,7 @@
     height: 5rem;
     background: var(--background-navbar);
     z-index: 99;
-    box-shadow: #292929 0px 0px 10px;
+    box-shadow: #292929 0 0 10px;
 }
 
 .navbarLinks{
