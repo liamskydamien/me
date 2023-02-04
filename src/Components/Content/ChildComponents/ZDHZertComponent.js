@@ -6,17 +6,20 @@ import TimeLine from "../TimeLine/TimeLine";
 
 const ZDHZertComponent = () => {
     const [isExpanded, setIsExpanded] = useState(specificStyles.hidden);
+    const [mobileExpanded, setMobileExpanded] = useState('');
     const expansionHandler = () => {
         if (isExpanded === specificStyles.hidden) {
             setIsExpanded(specificStyles.active);
+            setMobileExpanded(styles.contentActive);
         } else {
             setIsExpanded(specificStyles.hidden);
+            setMobileExpanded('');
         }
     };
     return <div className={styles.wrapper} onClick={expansionHandler}>
         <TimeLine className={styles.timeline} start={"10/2022"} end={"today"}/>
         <img src={zdhzert} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
-        <div className={styles.content}>
+        <div className={styles.content + " " + mobileExpanded}>
             <h4>Project-Manager and Marketing</h4>
             <h5>At ZDH-Zert GmbH</h5>
             <p>As a working student in project-management and marketing.</p>

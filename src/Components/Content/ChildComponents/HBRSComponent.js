@@ -1,23 +1,25 @@
 import hbrs from "../../../Pictures/HBRS.png";
 import styles from "./componentStyles.module.css";
 import specificStyles from "./hbrsStyles.module.css";
-import {FaCode, FaNetworkWired, FaPoll, FaRegLightbulb} from "react-icons/fa";
 import React, {useState} from "react";
 import TimeLine from "../TimeLine/TimeLine";
 
 const HBRSComponent = () => {
     const [isExpanded, setIsExpanded] = useState(specificStyles.hidden);
+    const [mobileExpanded, setMobileExpanded] = useState('');
     const expansionHandler = () => {
         if (isExpanded === specificStyles.hidden) {
             setIsExpanded(specificStyles.active);
+            setMobileExpanded(styles.contentActive);
         } else {
             setIsExpanded(specificStyles.hidden);
+            setMobileExpanded('');
         }
     };
     return <div className={styles.wrapper} onClick={expansionHandler}>
         <TimeLine className={styles.timeline} start={"10/2021"} end={"today"}/>
         <img src={hbrs} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
-        <div className={styles.content}>
+        <div className={styles.content + " " + mobileExpanded}>
             <h4>Hochschule Bonn-Rhein-Sieg</h4>
             <h5>Bachelor of Science Business Informatics</h5>
             <p>Currently in 4th semester. Graduation 10/2024. <br/>

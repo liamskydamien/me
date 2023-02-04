@@ -7,11 +7,14 @@ import TimeLine from "../TimeLine/TimeLine";
 
 const SECACAMComponent = props => {
     const [isExpanded, setIsExpanded] = useState(specificStyles.hidden);
+    const [mobileExpanded, setMobileExpanded] = useState('');
     const expansionHandler = () => {
         if (isExpanded === specificStyles.hidden) {
             setIsExpanded(specificStyles.active);
+            setMobileExpanded(styles.contentActive);
         } else {
             setIsExpanded(specificStyles.hidden);
+            setMobileExpanded('');
         }
     };
 
@@ -19,7 +22,7 @@ const SECACAMComponent = props => {
     return <div className={styles.wrapper} onClick={expansionHandler}>
         <TimeLine className={styles.timeline} start={"06/2020"} end={"10/2022"}/>
         <img src={props.theme === 'light' ? secacamLight : secacamDark} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
-        <div className={styles.content}>
+        <div className={styles.content + " " + mobileExpanded}>
             <h4>Customer Service</h4>
             <h5>At SECACAM by Ventrade GmbH</h5>
             <p>As a working student in Customer-Service.</p>

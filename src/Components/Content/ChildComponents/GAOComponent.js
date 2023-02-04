@@ -6,25 +6,29 @@ import TimeLine from "../TimeLine/TimeLine";
 
 const GAOComponent = () => {
     const [isExpanded, setIsExpanded] = useState(specificStyles.hidden);
+    const [mobileExpanded, setMobileExpanded] = useState('');
+
     const expansionHandler = () => {
         if (isExpanded === specificStyles.hidden) {
             setIsExpanded(specificStyles.active);
+            setMobileExpanded(styles.contentActive);
         } else {
             setIsExpanded(specificStyles.hidden);
+            setMobileExpanded('');
         }
     };
     return <div>
         <div className={styles.wrapper} onClick={expansionHandler}>
             <TimeLine className={styles.timeline} start={"06/2012"} end={"06/2020"}/>
             <img src={gao} alt="Logo der Hochschule Bonn-Rhein-Sieg"/>
-            <div className={styles.content}>
+            <div className={styles.content + " " + mobileExpanded}>
                 <h4>Gymnasium am Ölberg</h4>
                 <h5>General University Entrance Qualification</h5>
                 <p>Graduated in 06/2020 <br/>
                     GPA: 2.0 (1.0 being the best)
                 </p>
             </div>
-            <div className={styles.skills + " " + isExpanded + " " + specificStyles.skills}>
+            <div className={styles.skills + " " + isExpanded}>
                 <p>
                     At the "Gymnasium am Ölberg" I received my high school diploma with a grade of 2.0. <br/>
                     My main focus was on the subjects of mathematics, sociology, english and computer science.
