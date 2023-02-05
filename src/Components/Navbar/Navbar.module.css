@@ -32,14 +32,14 @@
 
 @media (max-width: 768px) {
     .Navbar{
-    display: grid;
-    grid-template-columns: 1fr [socials]2fr;
+    display: flex;
+        justify-content: space-evenly;
 }
     .socials{
-        grid-area: 1 / 3 / 2 / 4;
         display: flex;
-        justify-content: flex-end;
         align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
     }
 
     .links{
@@ -47,6 +47,10 @@
     }
 
     .title{
+        display: none;
+    }
+
+    .Navbar__Logo img{
         display: none;
     }
 
