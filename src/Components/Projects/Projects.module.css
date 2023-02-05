@@ -1,0 +1,14 @@
+.layout{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: [header]75px 1fr;
+    gap: 15px;
+}
+
+.header{
+    grid-row: header;
+}
+
+.content{
+    grid-row: 2;
+}

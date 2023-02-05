@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Updating Footer">
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/ProjectItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/ProjectsCarousel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,14 +139,8 @@
       <workItem from="1675197851201" duration="6920000" />
       <workItem from="1675369438950" duration="27000" />
       <workItem from="1675536881736" duration="3492000" />
-      <workItem from="1675544304440" duration="2854000" />
-    </task>
-    <task id="LOCAL-00034" summary="Styling">
-      <created>1673733383670</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1673733383670</updated>
+      <workItem from="1675544304440" duration="2908000" />
+      <workItem from="1675602325277" duration="2077000" />
     </task>
     <task id="LOCAL-00035" summary="Styling">
       <created>1673807696772</created>
@@ -480,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675546780195</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Updating Footer">
+      <created>1675547208777</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1675547208777</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

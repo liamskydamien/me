@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
 import Experience from "./Components/Content/Experience";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -39,8 +40,7 @@ function App() {
                     </div>
                     <Experience className="experiences" theme={theme}/>
                     <Skills/>
-                    <div className="Projects">
-                    </div>
+                    <Projects/>
                 </div>
                     <Footer className="footer"/>
                 </div>
