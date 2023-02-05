@@ -15,10 +15,8 @@ const Navbar = props => {
                 <div className={styles.Navbar__Logo}>
                     <img src={props.theme === 'light' ? logoLm : logoDm} alt={"Logo of Website"}/>
                 </div>
-                <div className={styles.navbarLinks}>
-                    <a href="/">Home</a>
-                    <a href="/">About</a>
-                    <a href="/">Contact</a>
+                <div className={styles.title}>
+                    <h1>Liam Hess Personal Portfolio / CV</h1>
                 </div>
                 <div className={styles.socials}>
                     <a className={styles.Email} href="mailto:liamskydamien@gmail.com">
