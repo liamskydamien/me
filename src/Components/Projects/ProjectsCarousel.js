@@ -16,11 +16,12 @@ const ProjectsCarousel = () =>{
             <ProjectItem img={BJS}
                          title={"API and Web App for BJS"}
                          description={"As my final project at my school, I created with 2 other students a Full-Stack Web App for the BJS." +
-                             "The BJS App is for managing Sportresults made during the Bundesjugendspiele (BJS). With the App you can create, edit and delete Sportresults. Aswell as calculating the pints for each student."}
+                             "With the App you can create, edit and delete Sportresults. Aswell as calculating the pints for each student."}
                          link={"https://github.com/bjs-org"}/>
             <ProjectItem img={ReactLogo}
                          title={"This Website"}
-                         description={"This Website is my first bigger React Project. I created it to showcase my CV and projects. More projects will be added in the future."}
+                         description={"This Website is my first bigger React Project. I created it to showcase my CV and projects. More projects will be added in the future. " +
+                             "During this project I learned the React basics. Aswell as layout in general."}
                          link={"https://liamskydamien.github.io/me/"}/>
         </div>
     </Card>;
