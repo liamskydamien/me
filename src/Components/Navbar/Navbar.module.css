@@ -46,6 +46,9 @@
         display: none;
     }
 
+    .title{
+        display: none;
+    }
 
     .navbarLinks{
         display: none;
