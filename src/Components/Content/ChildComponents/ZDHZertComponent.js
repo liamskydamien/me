@@ -28,12 +28,12 @@ const ZDHZertComponent = () => {
             <p>
                 At ZDH-Zert GmbH I was responsible for implementing the new corporate website. I was also helping implementing a new information system.
                 My tasks included:
-                <ul>
-                    <li>Project management</li>
-                    <li>Web development</li>
-                    <li>Information system development</li>
-                </ul>
             </p>
+            <ul>
+                <li>Project management</li>
+                <li>Web development</li>
+                <li>Information system development</li>
+            </ul>
         </div>
     </div>
 }

@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Updating Footer">
-      <change afterPath="$PROJECT_DIR$/src/Components/Projects/ProjectItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Projects/ProjectsCarousel.js" afterDir="false" />
+    <list default="true" id="0af9c508-fede-4214-bf24-1b7017d8964a" name="Changes" comment="Starting slider">
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/ProjectItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/ProjectsCarousel.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pictures/BJS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pictures/IWJunior.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pictures/React.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/ChildComponents/ZDHZertComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/ProjectItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/ProjectsCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/ProjectsCarousel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,14 +141,7 @@
       <workItem from="1675369438950" duration="27000" />
       <workItem from="1675536881736" duration="3492000" />
       <workItem from="1675544304440" duration="2908000" />
-      <workItem from="1675602325277" duration="2077000" />
-    </task>
-    <task id="LOCAL-00035" summary="Styling">
-      <created>1673807696772</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1673807696773</updated>
+      <workItem from="1675602325277" duration="8508000" />
     </task>
     <task id="LOCAL-00036" summary="Order skills">
       <created>1673891157156</created>
@@ -485,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675547208777</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Starting slider">
+      <created>1675606081200</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1675606081201</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +505,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding text" />
     <MESSAGE value="Trying to add darkmode to logo" />
     <MESSAGE value="I was stupid now it works" />
     <MESSAGE value="Adding Content" />
@@ -529,6 +529,7 @@
     <MESSAGE value="Mobile optimisation" />
     <MESSAGE value="Styling Links" />
     <MESSAGE value="Updating Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating Footer" />
+    <MESSAGE value="Starting slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting slider" />
   </component>
 </project>

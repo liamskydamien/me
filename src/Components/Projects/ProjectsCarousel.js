@@ -1,32 +1,28 @@
-import Carousel from "react-multi-carousel";
 import Card from "../../UI/Card/Card";
-
+import ProjectItem from "./ProjectItem";
+import classes from "./ProjectsCarousel.module.css";
+import IWJunior from "../../Pictures/IWJunior.png";
+import BJS from "../../Pictures/BJS.png";
 const ProjectsCarousel = () =>{
-    const responsive = {
-        superLargeDesktop: {
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
-        },
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2
-        },
-        mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1
-        }
-    };
-    return <Card>
-        <Carousel responsive={responsive}>
-            <div>Item 1</div>
-            <div>Item 2</div>
-            <div>Item 3</div>
-            <div>Item 4</div>
-        </Carousel>
+
+    return <Card className={classes.background}>
+        <div className={classes.slider}>
+            <ProjectItem img={IWJunior}
+                         title={"App Design IW-Junior"}
+                         description={"During a project at the university, " +
+                             "I worked together with other students on creating innovative ideas to make the IW-Junior student cup better. My main task was to create a App which is an interactive component in the cup."}
+                         link={"https://www.figma.com/file/6iTPYaq6zxYW7HCb6fnVI2/DesignThinking?node-id=0%3A1&t=aQAJTjsYyXfNWker-1"}/>
+            <ProjectItem img={IWJunior}
+                         title={"App Design IW-Junior"}
+                         description={"During a project at the university, " +
+                             "I worked together with other students on creating innovative ideas to make the IW-Junior student cup better. My main task was to create a App which is an interactive component in the cup."}
+                         link={"https://www.figma.com/file/6iTPYaq6zxYW7HCb6fnVI2/DesignThinking?node-id=0%3A1&t=aQAJTjsYyXfNWker-1"}/>
+            <ProjectItem img={IWJunior}
+                         title={"App Design IW-Junior"}
+                         description={"During a project at the university, " +
+                             "I worked together with other students on creating innovative ideas to make the IW-Junior student cup better. My main task was to create a App which is an interactive component in the cup."}
+                         link={"https://www.figma.com/file/6iTPYaq6zxYW7HCb6fnVI2/DesignThinking?node-id=0%3A1&t=aQAJTjsYyXfNWker-1"}/>
+        </div>
     </Card>;
 
 }
